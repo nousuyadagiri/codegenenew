@@ -1,0 +1,90 @@
+.cg-bg-gradient {
+  background-image: linear-gradient(144deg, #00ddeb, #5b42f3 50%, #00ddeb);
+  color: var(--fx-white) !important;
+}
+
+.bg-white-light {
+  background-color: rgb(var(--white-color), 0.1);
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-primary {
+  background-color: rgb(var(--primary-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-primary-light {
+  background-color: rgb(var(--primary-color), 0.1) !important;
+  color: rgb(var(--primary-color));
+}
+.bg-primary-light:hover {
+  background-color: rgb(var(--primary-color)) !important;
+  color: var(--fx-white);
+}
+.bg-secondary {
+  background-color: rgb(var(--secondary-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-success {
+  background-color: rgb(var(--success-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-warning {
+  background-color: rgb(var(--warning-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-danger {
+  background-color: rgb(var(--danger-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-info {
+  background-color: rgb(var(--info-color)) !important;
+  color: rgb(var(--white-color));
+}
+.bg-pink {
+  background-color: rgb(var(--pink-color)) !important;
+  color: rgb(var(--white-color));
+}
+
+.bg-primary-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--primary-color)) 17%,
+    #9bafd9 150%
+  );
+}
+.bg-secondary-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--secondary-color)) 17%,
+    #dfa5c1 150%
+  );
+}
+.bg-warning-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--warning-color)) 17%,
+    #eaebb1 150%
+  );
+}
+.bg-danger-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--danger-color)) 17%,
+    #dc8a88 150%
+  );
+}
+.bg-success-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--success-color)) 17%,
+    #89e1b6 150%
+  );
+}
+.bg-info-gradient {
+  background-image: linear-gradient(
+    91deg,
+    rgb(var(--info-color)) 17%,
+    #8cb4df 150%
+  );
+}

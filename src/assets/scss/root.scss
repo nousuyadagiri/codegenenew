@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: 55, 68, 163;
+  --secondary-color: 168, 68, 159;
+  --success-color: 47, 183, 149;
+  --info-color: 0, 137, 217;
+  --danger-color: 216, 81, 85;
+  --warning-color: 255, 189, 89;
+  --pink-color: 124, 73, 172;
+
+  --text-default-color: 33, 36, 42;
+  --default-font-family: "Poppins", sans-serif;
+  --default-font-weight: 400;
+
+  --white-color: 255, 255, 255;
+  --black-color: 0, 0, 0;
+
+  --fx-white: #fff;
+  --fx-black: #000;
+
+  --white-bg: 255, 255, 255;
+  --black-bg: 0, 0, 0;
+
+  --default-border-color: 239, 241, 245;
+
+  --default-body-bg: 250, 250, 250;
+
+  --bg-color1: 35, 34, 39;
+  --bg-color2: 27, 27, 27;
+
+  --text-muted: 96, 96, 96;
+
+  --gray-color1: 192, 203, 223;
+  --gray-color2: 73, 80, 87;
+
+  --default-shadow: 0 0.124rem 0 rgba(10, 10, 10, 0.03);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(var(--default-font-color));
+}
+.fs-10 {
+  font-size: 0.625rem;
+}
+
+.fs-11 {
+  font-size: 0.688rem;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+}
+
+.fs-13 {
+  font-size: 0.813rem;
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.fs-15 {
+  font-size: 0.938rem;
+}
+
+.fs-16 {
+  font-size: 1rem;
+}
+
+.fs-17 {
+  font-size: 1.063rem;
+}
+
+.fs-18 {
+  font-size: 1.125rem;
+}
+
+.fs-19 {
+  font-size: 1.188rem;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.fs-21 {
+  font-size: 1.313rem;
+}
+
+.fs-22 {
+  font-size: 1.375rem;
+}
+
+.fs-23 {
+  font-size: 1.438rem;
+}
+
+.fs-24 {
+  font-size: 1.5rem;
+}
+
+.fs-25 {
+  font-size: 1.563rem;
+}
+
+.fs-50 {
+  font-size: 3.438rem;
+}
+
+.text-white-75 {
+  color: rgba(var(--white-color), 0.75);
+}
+
+.letter-spacing1 {
+  letter-spacing: 1px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: rgb(var(--text-muted)) !important;
+}
+.text-primary {
+  color: rgb(var(--primary-color)) !important;
+}
+.text-secondary {
+  color: rgb(var(--secondary-color)) !important;
+}
+.text-success {
+  color: rgb(var(--success-color)) !important;
+}
+.text-info {
+  color: rgb(var(--info-color)) !important;
+}
+.text-warning {
+  color: rgb(var(--warning-color)) !important;
+}
+.text-danger {
+  color: rgb(var(--danger-color)) !important;
+}
+.text-default-color {
+  color: rgb(var(--text-default-color));
+}
+/* backgournd styles */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+/* bg gradientp */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Nunito", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+  letter-spacing: normal;
+}
+
+body {
+  background-color: #fff;
+  color: rgb(var(--text-default-color));
+  font-size: 0.9rem;
+  min-height: 100vh;
+  line-height: 1.1;
+  font-family: var(--default-font-family);
+  font-weight: initial;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(var(--primary-color), 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(144deg, #00ddeb, #5b42f3 50%, #00ddeb);
+  border-radius: 0.625rem;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+}
+span {
+  line-height: 20px;
+}
+hr {
+  border-top: 1px solid rgb(var(--default-border-color));
+}
+img,
+svg {
+  // width: 100%;
+  vertical-align: middle;
+}
