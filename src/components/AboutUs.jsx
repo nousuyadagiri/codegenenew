@@ -63,9 +63,9 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-6 my-auto"
+              className="col-lg-6 col-12 col-sm-12 my-auto"
             >
-              <h1 className="fs-50 my-3">
+              <h1 className="fs-50 mb-3 mt-5">
                 Empowering people to realise their true potential
               </h1>
               <p className="mb-0 text-muted fs-16 banner_info_text">
@@ -81,7 +81,7 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-6 text-end"
+              className="col-lg-6 col-12 col-sm-12 text-end"
             >
               <img src={aboutImage1} alt="img" className="animated_gif" />
             </motion.div>
@@ -96,10 +96,10 @@ const AboutUs = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="row justify-content-evenly"
           >
-            <div className="col-xl-2 my-auto text-center">
+            <div className="col-lg-2 my-auto text-center">
               <h2 className="text-primary fw-bold">Our Story</h2>
             </div>
-            <div className="col-xl-7">
+            <div className="col-lg-7">
               <h3>
                 Enabling seamless access to high growth organizations for top
                 talent
@@ -132,7 +132,7 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-5"
+              className="col-lg-5 col-sm-6 col-12"
             >
               <div className="card shadow-none border card_shadow ">
                 <div className="card-body">
@@ -159,7 +159,7 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-5"
+              className="col-lg-5 col-sm-6 col-12"
             >
               <div className="card shadow-none border">
                 <div className="card-body">
@@ -186,7 +186,7 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-5 ms-auto"
+              className="col-lg-5 col-sm-6 col-12 ms-auto"
             >
               <div className="card shadow-none border">
                 <div className="card-body">
@@ -213,7 +213,7 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-5"
+              className="col-lg-5 col-sm-6 col-12"
             >
               <div className="card shadow-none border">
                 <div className="card-body">
@@ -523,7 +523,7 @@ const AboutUs = () => {
               part of the Recro Squad and lead futuristic tech innovations
             </p>
             <button
-              className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn shadow"
+              className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn shadow mb-4 mb-lg-0"
               onClick={() => navigate("/jobs")}
             >
               I'm Intrested{" "}

@@ -25,44 +25,44 @@ const Home = () => {
   const backgroundY = useTransform(scrollYProgress, [0, 3], ["0%", "10%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
 
-  const userData = [
-    {
-      name: "Sai Murari",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-    {
-      name: "Sai RamaKrishna",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-    {
-      name: "Raghava",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-    {
-      name: "Sravani",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-    {
-      name: "Vennela",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-    {
-      name: "Sathish",
-      image: User1,
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-    },
-  ];
+  // const userData = [
+  //   {
+  //     name: "Sai Murari",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  //   {
+  //     name: "Sai RamaKrishna",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  //   {
+  //     name: "Raghava",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  //   {
+  //     name: "Sravani",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  //   {
+  //     name: "Vennela",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  //   {
+  //     name: "Sathish",
+  //     image: User1,
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
+  //   },
+  // ];
   const GoDownPage = () => {
     window.scrollTo({
       top: window.scrollY + 800,
@@ -71,53 +71,53 @@ const Home = () => {
     console.log("going down");
   };
 
-  const HorizontalScrollCarousel = () => {
-    const targetRef = useRef(null);
-    const { scrollYProgress } = useScroll({
-      target: targetRef,
-    });
+  // const HorizontalScrollCarousel = () => {
+  //   const targetRef = useRef(null);
+  //   const { scrollYProgress } = useScroll({
+  //     target: targetRef,
+  //   });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+  //   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
-    return (
-      <section
-        ref={targetRef}
-        className="position-relative"
-        // style={{ height: "200vh" }}
-      >
-        <div
-          className="position-sticky top-0 d-flex align-items-center overflow-hidden"
-          // style={{ height: "100vh" }}
-        >
-          <motion.div style={{ x }} className="d-flex gap-4">
-            {userData.map((user, index) => (
-              <div className="col-xl-4" key={index}>
-                <div className="card shadow-none cg_developers overflow-hidden">
-                  <div className="card-body">
-                    <div className="d-flex align-items-center ms-3">
-                      <img src={user.image} alt="user" className="shadow" />
-                      <h6 className="mb-0 fw-semibold ms-3 fs-20">
-                        {user.name}
-                      </h6>
-                    </div>
-                    <div className="ps-5 mt-4">
-                      <p className="text-muted ms-3">{user.description}</p>
-                    </div>
-                    <div className="text-end">
-                      <Link>
-                        Read more
-                        <i className="ri-arrow-right-s-line align-middle"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
-    );
-  };
+  //   return (
+  //     <section
+  //       ref={targetRef}
+  //       className="position-relative"
+  //       // style={{ height: "200vh" }}
+  //     >
+  //       <div
+  //         className="position-sticky top-0 d-flex align-items-center overflow-hidden"
+  //         // style={{ height: "100vh" }}
+  //       >
+  //         <motion.div style={{ x }} className="d-flex gap-4">
+  //           {userData.map((user, index) => (
+  //             <div className="col-xl-4" key={index}>
+  //               <div className="card shadow-none cg_developers overflow-hidden">
+  //                 <div className="card-body">
+  //                   <div className="d-flex align-items-center ms-3">
+  //                     <img src={user.image} alt="user" className="shadow" />
+  //                     <h6 className="mb-0 fw-semibold ms-3 fs-20">
+  //                       {user.name}
+  //                     </h6>
+  //                   </div>
+  //                   <div className="ps-5 mt-4">
+  //                     <p className="text-muted ms-3">{user.description}</p>
+  //                   </div>
+  //                   <div className="text-end">
+  //                     <Link>
+  //                       Read more
+  //                       <i className="ri-arrow-right-s-line align-middle"></i>
+  //                     </Link>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           ))}
+  //         </motion.div>
+  //       </div>
+  //     </section>
+  //   );
+  // };
 
   return (
     <>
@@ -228,7 +228,7 @@ const Home = () => {
           </h3>
           <div className="row get_started">
             <div className="col-xl-4">
-              <div className="text-center small_bg">
+              <div className="text-center small_bg3">
                 <img src={gifImage1} alt="img" className="small_gifs" />
                 <h4 className="my-4 fw-semibold">Apply</h4>
                 <p className="text-white-50">
@@ -238,7 +238,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="text-center small_bg">
+              <div className="text-center small_bg3">
                 <img src={gifImage2} alt="img" className="small_gifs" />
                 <h4 className="my-4 fw-semibold">Interview</h4>
                 <p className="text-white-50">
@@ -248,7 +248,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-xl-4">
-              <div className="text-center small_bg">
+              <div className="text-center small_bg3">
                 <img src={gifImage3} alt="img" className="small_gifs" />
                 <h4 className="my-4 fw-semibold">Join</h4>
                 <p className="text-white-50">
@@ -308,7 +308,7 @@ const Home = () => {
                   Hear from our talents who found the right opportunity
                 </p>
               </div>
-              <HorizontalScrollCarousel />
+              {/* <HorizontalScrollCarousel /> */}
             </div>
           </section>
           <Employees />

@@ -117,11 +117,11 @@ h6 {
 }
 
 .fs-49 {
-  font-size: 3rem;
+  font-size: clamp(23px, 8vw, 48px);
 }
 
 .fs-50 {
-  font-size: 3.438rem;
+  font-size: clamp(23px, 8vw, 50px);
 }
 
 .text-white-75 {

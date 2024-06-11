@@ -16,10 +16,10 @@ const WhyCodegene = () => {
       <section className="why_Codegene">
         <div className="memories d-flex">
           <motion.div
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            // variants={fadeIn("up", 0.2)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: true, amount: 0.7 }}
             className="row m-auto"
           >
             <div className="col-xl-12">
@@ -28,7 +28,7 @@ const WhyCodegene = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
-                className="text-white lh-2 fs-50"
+                className="text-white lh-2 banner-text"
               >
                 Helping developers realize their <br /> maximum potential since
                 2019
@@ -63,7 +63,7 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-4 mt-auto"
+              className="col-md-4 mt-auto"
             >
               <div className="text-center small_bg">
                 <img src={gifImage1} alt="img" className="small_gifs" />
@@ -79,7 +79,7 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-4 mt-auto"
+              className="col-md-4 mt-auto"
             >
               <div className="text-center small_bg">
                 <img src={gifImage3} alt="img" className="small_gifs" />
@@ -98,7 +98,7 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-4 mt-auto"
+              className="col-md-4 mt-auto"
             >
               <div className="text-center small_bg">
                 <img src={gifImage2} alt="img" className="small_gifs" />
@@ -119,16 +119,16 @@ const WhyCodegene = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="row justify-content-evenly"
           >
-            <div className="col-xl-5">
+            <div className="col-lg-5">
               <button
-                className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn mt-3"
+                className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn mb-4 mb-lg-0"
                 onClick={() => navigate("/jobs")}
               >
                 Work with us
                 <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>
               </button>
             </div>
-            <div className="col-xl-5 ">
+            <div className="col-lg-5 ">
               <h4>
                 We’re always on the lookout for amazing Developers like you.
               </h4>
@@ -142,7 +142,7 @@ const WhyCodegene = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="row justify-content-evenly"
+          className="row justify-content-evenly gap-3"
         >
           <div className="col-xl-3">
             <div className="text-center">
@@ -156,7 +156,7 @@ const WhyCodegene = () => {
                   </div>
                 )}
               </CountUp>
-              <p className="mb-0 fs-20 ">Our Total Projects</p>
+              <p className="mb-0">Our Total Projects</p>
             </div>
           </div>
           <div className="col-xl-3">
@@ -171,7 +171,7 @@ const WhyCodegene = () => {
                   </div>
                 )}
               </CountUp>
-              <p className="mb-0 fs-20 ">Satisfied Clients</p>
+              <p className="mb-0">Satisfied Clients</p>
             </div>
           </div>
           <div className="col-xl-3">
@@ -186,7 +186,7 @@ const WhyCodegene = () => {
                   </div>
                 )}
               </CountUp>
-              <p className="mb-0 fs-20 ">Our Team Members</p>
+              <p className="mb-0">Our Team Members</p>
             </div>
           </div>
         </motion.div>

@@ -12,7 +12,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-12"
+          className="col-sm-12"
         >
           <h1 className="fs-49 my-3">
             Codegene <span className="text-danger">Terms Of Uses</span>
@@ -37,7 +37,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-12"
+          className="col-sm-12"
         >
           <h4 className="my-3">Disclaimer of Warranty</h4>
           <p className="text-muted">
@@ -60,7 +60,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-6"
+          className="col-lg-6 col-sm-12 col-12"
         >
           <h4>User Agreement</h4>
           <p className="fs-16">
@@ -92,7 +92,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-6 text-end"
+          className="col-lg-6 col-sm-12 col-12 text-end"
         >
           <img src={TermsImage} alt="img" className="animated_gif" />
         </motion.div>
@@ -101,7 +101,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-8"
+          className="col-lg-8 col-sm-12 col-12"
         >
           <h4>Copyright and Trademarks</h4>
           <p className="fs-16">
@@ -118,7 +118,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-8"
+          className="col-lg-8 col-sm-12 col-12"
         >
           <h4>Applicable Laws</h4>
           <p className="fs-16">
@@ -135,7 +135,7 @@ const Terms = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="col-xl-8"
+          className="col-lg-8 col-sm-12 col-12"
         >
           <h4>Contact Us</h4>
           <p className="fs-16">

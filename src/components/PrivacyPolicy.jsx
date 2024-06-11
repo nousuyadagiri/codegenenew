@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className="col-xl-6"
+            className="col-lg-6 col-sm-12 col-12"
           >
             <h4>Our Data Collection Practices</h4>
             <p className="fs-16">
@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className="col-xl-6 text-end"
+            className="col-lg-6 col-sm-12 col-12 text-end"
           >
             <img src={PrivacyImage} alt="img" className="animated_gif" />
           </motion.div>
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className="col-xl-8"
+            className="col-lg-8"
           >
             <h4>How We Collect Data from our Websites</h4>
             <p className="fs-16">
@@ -122,7 +122,7 @@ const PrivacyPolicy = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            className="col-xl-10"
+            className="col-lg-10"
           >
             <h4>Contact Us</h4>
             <p className="fs-16">

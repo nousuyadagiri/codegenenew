@@ -2348,9 +2348,9 @@ textarea.w-select {
     font-size: 60vw;
   }
 
-  .home_section h2 {
+  /* .home_section h2 {
     font-size: 27vw;
-  }
+  } */
 
   .home_section .hero {
     align-items: flex-start;
@@ -2358,9 +2358,9 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
-  .home_section h2 {
+  /* .home_section h2 {
     font-size: 40vw;
-  }
+  } */
 
   .home_section .button {
     margin-bottom: 1.1em;

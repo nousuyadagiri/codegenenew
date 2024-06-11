@@ -22,7 +22,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-6 my-auto"
+              className="col-lg-6 my-auto"
             >
               <h1 className="fs-49 my-3">
                 Don’t bring a chair, we’ll find you the right one!
@@ -48,7 +48,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-6 text-end"
+              className="col-lg-6 text-end"
             >
               <img src={aboutImage1} alt="img" className="animated_gif" />
             </motion.div>
@@ -100,13 +100,13 @@ const Jobs = () => {
           >
             Current Openings
           </motion.h5>
-          <div className="row justify-content-evenly">
+          <div className="row justify-content-evenly px-3">
             <motion.div
               variants={fadeIn("left", 0.8)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -120,7 +120,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -134,7 +134,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -144,13 +144,13 @@ const Jobs = () => {
               </Link>
             </motion.div>
           </div>
-          <div className="row justify-content-evenly">
+          <div className="row justify-content-evenly px-3">
             <motion.div
               variants={fadeIn("right", 0.8)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -164,7 +164,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -178,7 +178,7 @@ const Jobs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 current_openings fancy"
+              className="col-lg-3 col-sm-6 current_openings fancy"
             >
               <Link>
                 <span className="top-key"></span>
@@ -197,16 +197,16 @@ const Jobs = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="row justify-content-evenly"
           >
-            <div className="col-xl-5">
+            <div className="col-lg-5">
               <button
-                className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn mt-3"
+                className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn mb-4 mb-lg-0"
                 onClick={() => navigate("/aboutus")}
               >
                 See our work culture{" "}
                 <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>
               </button>
             </div>
-            <div className="col-xl-5 ">
+            <div className="col-lg-5 ">
               <h4>Hire great people and give them freedom to be awesome..</h4>
               <p className="text-muted text-end ">
                 Pawan Rebba, CTO @TopJuan Tech Inc || Founder & CEO @ Codegene
