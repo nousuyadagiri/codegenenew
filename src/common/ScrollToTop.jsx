@@ -33,7 +33,7 @@ const ScrollTOTOp = () => {
     <div className="psoition-realtive">
       {isVisible && (
         <button
-          className="position-fixed scroll_top rounded-circle cg_btn_gradient btn p-2 rounded-full"
+          className="position-fixed scroll_top rounded-circle bg-primary shadow border btn p-2 rounded-full"
           onClick={scrollToTop}
         >
           <i className="ri-corner-right-up-line fs-18 align-middle inline-block"></i>

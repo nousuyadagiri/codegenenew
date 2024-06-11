@@ -1,20 +1,24 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import FooterLogo from "../assets/images/mobile_light_logo.png";
-import footerImage1 from "../assets/images/top-website-development-companies.svg";
-import footerImage2 from "../assets/images/badge-top-app-company-india.png";
 import Linkedin from "../assets/images/gifs/Linkedin.gif";
 import YouTube from "../assets/images/gifs/Youtube.gif";
 import FaceBook from "../assets/images/gifs/Facebook.gif";
 import Twitter from "../assets/images/gifs/Twitter.gif";
 const Footer = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const navItems = [
     { path: "/", label: "Home" },
     { path: "/aboutus", label: "About Us" },
     { path: "/jobs", label: "Jobs" },
     { path: "/whycodegene", label: "Why Codegene" },
     { path: "/contactus", label: "Contactus" },
-    { path: "/blog", label: "Blog" },
+    { path: "/services", label: "Services" },
     { path: "/privacy", label: "Privacy" },
     { path: "/terms", label: "Terms and Conditons" },
   ];
@@ -107,8 +111,8 @@ const Footer = () => {
         </div>
       </div>
       <hr className="mb-0 mt-4" />
-      <div className="py-3 cg-bg-gradient text-center">
-        <p className="mb-0 fs-14 d-inline-flex align-items-center">
+      <div className="py-3 bg-primary text-center px-3 px-sm-0">
+        <p className="mb-0 fs-14 d-flex flex-coulmn justify-content-center flex-wrap align-items-center">
           <span className="text-uppercase fs-20 fw-semibold">Codegene</span>{" "}
           <span className="ms-2">Copyright © 2024 All rights reserved </span>
         </p>

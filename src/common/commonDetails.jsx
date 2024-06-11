@@ -109,7 +109,7 @@ const CommonDetails = () => {
           <div className="col-xl-3 my-auto">
             <div>
               <button
-                className="btn cg-bg-gradient btn-lg rounded-0 border-0 contact_us_btn"
+                className="btn bg-primary btn-lg rounded-0 border-0 contact_us_btn"
                 onClick={() => navigate("/jobs")}
               >
                 Find your Goal

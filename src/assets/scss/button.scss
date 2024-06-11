@@ -20,6 +20,7 @@
   box-shadow: 0 0.125rem 0.25rem rgba(var(--fx-black), 0.075);
   white-space: nowrap;
   line-height: 1;
+  cursor: pointer;
 }
 
 .btn {
@@ -183,6 +184,7 @@
   justify-content: center;
   cursor: pointer;
   gap: 10px;
+  overflow: hidden;
   &::before {
     content: "";
     position: absolute;
@@ -195,7 +197,7 @@
       rgba(255, 255, 255, 0) 70%
     );
     top: 0;
-    left: -65px;
+    left: -80px;
     opacity: 0.6;
   }
   &:hover {

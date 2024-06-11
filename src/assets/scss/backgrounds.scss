@@ -11,7 +11,10 @@
 }
 .bg-primary {
   background-color: rgb(var(--primary-color)) !important;
-  color: rgb(var(--white-color));
+  color: var(--fx-white) !important;
+  &:hover {
+    color: var(--fx-white) !important;
+  }
 }
 .bg-primary-light {
   background-color: rgb(var(--primary-color), 0.1) !important;
