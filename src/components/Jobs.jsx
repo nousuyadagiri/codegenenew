@@ -102,7 +102,7 @@ const Jobs = () => {
           </motion.h5>
           <div className="row justify-content-evenly px-3">
             <motion.div
-              variants={fadeIn("left", 0.8)}
+              variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -116,7 +116,7 @@ const Jobs = () => {
               </Link>
             </motion.div>
             <motion.div
-              variants={fadeIn("left", 0.8)}
+              variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -130,7 +130,7 @@ const Jobs = () => {
               </Link>
             </motion.div>
             <motion.div
-              variants={fadeIn("left", 0.8)}
+              variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -146,7 +146,7 @@ const Jobs = () => {
           </div>
           <div className="row justify-content-evenly px-3">
             <motion.div
-              variants={fadeIn("right", 0.8)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -160,7 +160,7 @@ const Jobs = () => {
               </Link>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.8)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -174,7 +174,7 @@ const Jobs = () => {
               </Link>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.8)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -191,7 +191,7 @@ const Jobs = () => {
         </section>
         <section className="jobs_section">
           <motion.div
-            variants={fadeIn("right", 0.8)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -227,7 +227,7 @@ const Jobs = () => {
           Getting excited!
         </motion.h4>
         <motion.p
-          variants={fadeIn("right", 0.8)}
+          variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
