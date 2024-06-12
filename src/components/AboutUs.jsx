@@ -524,7 +524,7 @@ const AboutUs = () => {
             </p>
             <button
               className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn shadow mb-4 mb-lg-0"
-              onClick={() => navigate("/jobs")}
+              onClick={() => navigate("/contactus")}
             >
               I'm Intrested{" "}
               <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>

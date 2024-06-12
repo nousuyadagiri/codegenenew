@@ -7,12 +7,11 @@ const Header = () => {
   const navigate = useNavigate();
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
+  // const [isSticky, setIsSticky] = useState(false);
   const offcanvasRef = useRef(null);
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
-    console.log(previous);
     if (latest > previous && latest > 100) {
       setHidden(true);
     } else {
@@ -50,9 +49,7 @@ const Header = () => {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duaration: 0.35, ease: "easeInOut" }}
-      className={`codegene_navbar position-sticky top-0 ${
-        isSticky ? "isSticky" : ""
-      }`}
+      className="codegene_navbar position-sticky top-0"
     >
       <nav
         className="navbar navbar-expand-lg  px-0 px-lg-3 py-lg-3"
@@ -96,6 +93,17 @@ const Header = () => {
               <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3 header-right">
                 <li className="nav-item">
                   <NavLink
+                    to="/home"
+                    className={({ isActive }) =>
+                      isActive ? "nav-link active" : "nav-link"
+                    }
+                    onClick={() => handleNavLinkClick("/home")}
+                  >
+                    <span>Home</span>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
                     to="/aboutus"
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -105,7 +113,7 @@ const Header = () => {
                     <span>About Us</span>
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink
                     to="/jobs"
                     className={({ isActive }) =>
@@ -115,7 +123,7 @@ const Header = () => {
                   >
                     <span>Jobs</span>
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <NavLink
                     to="/whycodegene"

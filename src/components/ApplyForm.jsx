@@ -51,11 +51,11 @@ const ApplyForm = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mb-5">
-        <div className="col-xl-8">
+        <div className="col-lg-8 col-12">
           <div className="card shadow-none apply_form mb-0">
             <div className="card-body">
               <motion.h2
-                variants={fadeIn("right", 0.9)}
+                variants={fadeIn("right", 0.4)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
@@ -72,7 +72,7 @@ const ApplyForm = () => {
                   viewport={{ once: true, amount: 0.7 }}
                   className="row shadow-sm border rounded-3 px-1 py-4 mb-4"
                 >
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="firstname" className="form-label">
                         FirstName <span className="text-danger">*</span>
@@ -91,7 +91,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="lastname" className="form-label">
                         LastName <span className="text-danger">*</span>
@@ -109,7 +109,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="phonenumber" className="form-label">
                         Mobile Number <span className="text-danger">*</span>
@@ -127,7 +127,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="email" className="form-label">
                         Email <span className="text-danger">*</span>
@@ -155,7 +155,7 @@ const ApplyForm = () => {
                   viewport={{ once: true, amount: 0.7 }}
                   className="row shadow-sm border rounded-3 px-1 py-4  mb-4"
                 >
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label
                         htmlFor="relevenatexperience"
@@ -177,7 +177,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3">
                       <label htmlFor="techstack" className="form-label">
                         Tech Stack Category{" "}
@@ -210,7 +210,7 @@ const ApplyForm = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="stackexperience" className="form-label">
                         Experience related to the stack (in Years){" "}
@@ -239,7 +239,7 @@ const ApplyForm = () => {
                   viewport={{ once: true, amount: 0.7 }}
                   className="row shadow-sm border rounded-3 px-1 py-4  mb-4"
                 >
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="currentCTC" className="form-label">
                         Current CTC (in LPA){" "}
@@ -258,7 +258,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="expectedCTC" className="form-label">
                         Expected CTC (in LPA){" "}
@@ -277,7 +277,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-12">
                     <div className="mb-3">
                       <label htmlFor="noticePeriod" className="form-label">
                         Notice Period <span className="text-danger">*</span>
@@ -301,7 +301,7 @@ const ApplyForm = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-12">
                     <div className="mb-3">
                       <label htmlFor="relocation" className="form-label">
                         Open to Relocation?
@@ -319,7 +319,7 @@ const ApplyForm = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="preferredLocation" className="form-label">
                         Preferred Location
@@ -346,7 +346,7 @@ const ApplyForm = () => {
                   viewport={{ once: true, amount: 0.7 }}
                   className="row shadow-sm border rounded-3 px-1 py-4"
                 >
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 col-12">
                     <div className="mb-3 form">
                       <label htmlFor="linkedinURL" className="form-label">
                         Linkedin URL
@@ -363,7 +363,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-2">
                     <div className="mb-3">
                       <label htmlFor="resume" className="form-label">
                         Upload Resume

@@ -101,7 +101,7 @@ const ContactUs = () => {
                   )} */}
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div className="col-lg-6 col-12">
                 <div className="mb-3 form">
                   <label htmlFor="firstname" className="form-label">
                     First Name <span className="text-danger">*</span>
@@ -123,7 +123,7 @@ const ContactUs = () => {
                   )} */}
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div className="col-lg-6 col-12">
                 <div className="mb-3 form">
                   <label htmlFor="lastname" className="form-label">
                     Last Name <span className="text-danger">*</span>
@@ -144,7 +144,7 @@ const ContactUs = () => {
                   )} */}
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div className="col-lg-6 col-12">
                 <div className="mb-3 form">
                   <label htmlFor="phonenumber" className="form-label">
                     Phone Number <span className="text-danger">*</span>
@@ -165,7 +165,7 @@ const ContactUs = () => {
                   )} */}
                 </div>
               </div>
-              <div className="col-xl-6">
+              <div className="col-lg-6 col-12">
                 <div className="mb-3 form">
                   <label htmlFor="email" className="form-label">
                     Email <span className="text-danger">*</span>
@@ -222,7 +222,7 @@ const ContactUs = () => {
           viewport={{ once: true, amount: 0.7 }}
           className="col-lg-5 my-auto text-end"
         >
-          <div className="text-center">
+          <div className="text-center mt-5 mt-lg-0">
             <img src={aboutImage1} alt="img" className="animated_gif" />
           </div>
         </motion.div>

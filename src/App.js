@@ -3,15 +3,11 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { motion, useInView, useAnimation } from "framer-motion";
 import Layout from "./Layout";
 import Home from "./components/Home";
-// import AboutUs from "./components/AboutUs";
-import Jobs from "./components/Jobs";
-// import Community from "./components/Community";
-// import WhyCodegene from './components/WhyCodegene';
-// import Services from './components/Services';
+// import Jobs from "./components/Jobs";
 import ContactUs from "./components/ContactUs";
 import ApplyForm from "./components/ApplyForm";
-import PrivacyPolicy from "./components/PrivacyPolicy";
-import Terms from "./components/Terms";
+// import PrivacyPolicy from "./components/PrivacyPolicy";
+// import Terms from "./components/Terms";
 import LoaderComponent from "./common/loaderComponent";
 const AboutUs = React.lazy(() => import("./components/AboutUs"));
 const WhyCodegene = React.lazy(() => import("./components/WhyCodegene"));
@@ -55,10 +51,10 @@ const App = () => {
           ),
         },
         {
-          path: "/jobs",
-          element: <Jobs />,
+          path: "/home",
+          element: <Home />,
         },
-       
+
         {
           path: "/whycodegene",
           element: (
@@ -95,21 +91,24 @@ const App = () => {
           path: "applyform",
           element: <ApplyForm />,
         },
-        {
-          path: "privacy",
-          element: <PrivacyPolicy />,
-        },
-        {
-          path: "terms",
-          element: <Terms />,
-        },
+        // {
+        //   path: "privacy",
+        //   element: <PrivacyPolicy />,
+        // },
+        // {
+        //   path: "terms",
+        //   element: <Terms />,
+        // },
       ],
     },
 
     {
       path: "*",
       element: (
-        <div className="text-center">
+        <div
+          className="text-center d-flex justify-content-center align-items-center"
+          style={{ minHeight: "100vh" }}
+        >
           <h3 className="mt-5 text-default-color">Page was not Found...😫</h3>
         </div>
       ),

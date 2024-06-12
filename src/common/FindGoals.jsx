@@ -25,7 +25,7 @@ const FindGoals = () => {
           <div className="col-xl-3 col-lg-3 my-auto">
             <button
               className="btn cg_btn_gradient btn-lg mb-3 mb-lg-0 rounded-0 border-0 contact_us_btn"
-              onClick={() => navigate("/jobs")}
+              onClick={() => navigate("/contactus")}
             >
               Find your Goal
             </button>

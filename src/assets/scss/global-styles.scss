@@ -1096,8 +1096,20 @@ a {
       box-shadow: 0 3px 4px 1px rgb(var(--primary-color), 0.1) !important;
       z-index: 1;
       transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+      &::before {
+        position: absolute;
+        content: "";
+        width: 18rem;
+        height: 4rem;
+        top: -0.6rem;
+        left: -0.6rem;
+        border-radius: 10px;
+        background-color: rgb(var(--white-color), 0.1);
+        z-index: -1;
+        border: 2px dashed rgb(var(--white-color), 0.5);
+      }
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         z-index: 10;
       }
     }
@@ -1198,7 +1210,29 @@ a {
   .banner-text {
     font-size: clamp(20px, 11vw, 50px);
   }
-
+  .main-services {
+    svg {
+      fill: rgb(var(--primary-color));
+      width: 60px;
+      height: 60px;
+      padding: 10px;
+      background-color: rgb(var(--primary-color), 0.15);
+      border-radius: 5px;
+    }
+    .view-more-btn {
+      position: absolute;
+      bottom: -18px;
+      left: 34%;
+      transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+      &:hover {
+        background-color: rgb(var(--primary-color));
+        transform: scale(1.1);
+      }
+      i {
+        line-height: 0;
+      }
+    }
+  }
 }
 
 /// keyframes
