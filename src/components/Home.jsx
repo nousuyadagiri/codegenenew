@@ -1,12 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { useScroll, motion, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import gifImage1 from "../assets/images/gifs/3.gif";
 import gifImage2 from "../assets/images/gifs/4.gif";
 import gifImage3 from "../assets/images/gifs/5.gif";
 import gifImage4 from "../assets/images/gifs/down-arrow.gif";
-import Image3 from "../assets/images/3.png";
-import User1 from "../assets/images/users/5.jpg";
+import Image1 from "../assets/images/1.png";
+// import Image3 from "../assets/images/3.png";
+// import User1 from "../assets/images/users/5.jpg";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/pagination";
@@ -14,6 +15,7 @@ import "../../node_modules/swiper/swiper.css";
 import "../assets/styles.css";
 import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
+// import { myFunction } from "./custom";
 
 const Home = () => {
   const ref = useRef(null);
@@ -70,6 +72,13 @@ const Home = () => {
     });
     console.log("going down");
   };
+
+  // useEffect(() => {
+  //   console.log("Executed");
+  //   setTimeout(() => {
+  //     myFunction();
+  //   }, 0);
+  // }, []);
 
   // const HorizontalScrollCarousel = () => {
   //   const targetRef = useRef(null);
@@ -139,20 +148,6 @@ const Home = () => {
             <canvas></canvas>
           </div>
           <section className="hero mb-0">
-            {/* <div className="position-relative sphere_animation">
-              <Canvas
-                camera={{
-                  position: [10, -7.5, -5],
-                }}
-                style={{ height: "100vh" }}
-                className=""
-              >
-                <OrbitControls maxDistance={20} minDistance={10} />
-                <directionalLight />
-                <pointLight position={[-30, 0, -30]} power={10.0} />
-                <PointCircle />
-              </Canvas>
-            </div> */}
             <h1 className="z-1">Codegene</h1>
             <img
               src={gifImage4}
@@ -193,33 +188,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div
-              data-w-id="d835436e-df39-4939-f343-6f779f335e5d"
-              className="w-layout-blockcontainer container w-container text-end d-flex flex-column"
-            >
-              <h2 className="fs-50 my-3 ms-auto">Code with the best</h2>
-              <p className="mb-0 text-white-75 fs-16 banner_info_text text-end d-flex ms-auto">
-                Take on challenges that you have always wanted to explore
-                because that is why you could depend on us. We ensure perks and
-                health benefits that go beyond just helping you land the
-                opportunity. We make sure you are among peers of exceptional
-                calibre and are part of a community that helps you grow.
-              </p>
-            </div>
-            <div
-              data-w-id="d835436e-df39-4939-f343-6f779f335e5d"
-              className="w-layout-blockcontainer container w-container"
-            >
-              <h2 className="fs-50 my-3">Stability that comes with security</h2>
-              <p className="mb-0 text-white-75 fs-16 banner_info_text">
-                Take on challenges that you have always wanted to explore
-                because that is why you could depend on us. We ensure perks and
-                health benefits that go beyond just helping you land the
-                opportunity. We make sure you are among peers of exceptional
-                calibre and are part of a community that helps you grow.
-              </p>
-            </div> */}
           </div>
         </div>
         <section className="mb-0 how_start container">
@@ -300,7 +268,7 @@ const Home = () => {
               </div>
             </div>
           </section> */}
-          <section className="mb-0 my-5 pt-5 w-100">
+          <section className="mb-0 my-5 py-5 w-100">
             <div className="row justify-content-evenly">
               <div className="text-center">
                 <h3 className="fs-25 fw-bold">Developer Experiences</h3>
@@ -308,10 +276,26 @@ const Home = () => {
                   Hear from our talents who found the right opportunity
                 </p>
               </div>
+              <div className="col-xl-6">
+                <div>
+                  <img src={Image1} alt="img" className="stabs_img" />
+                </div>
+              </div>
+              <div className="col-xl-6 my-auto">
+                <h3 className="fw-bold mb-4">
+                  Stability that comes with security
+                </h3>
+                <p className="text-white-75">
+                  Take on challenges that you have always wanted to explore
+                  because that is why you could depend on us. We ensure perks
+                  and health benefits that go beyond just helping you land the
+                  opportunity. We make sure you are among peers of exceptional
+                  calibre and are part of a community that helps you grow.
+                </p>
+              </div>
               {/* <HorizontalScrollCarousel /> */}
             </div>
           </section>
-          <Employees />
         </motion.div>
 
         <motion.div
@@ -322,6 +306,7 @@ const Home = () => {
         ></motion.div>
       </div>
       <div className="container mt-5">
+        <Employees />
         <FindGoals />
       </div>
     </>

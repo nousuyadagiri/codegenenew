@@ -3,14 +3,19 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { motion, useInView, useAnimation } from "framer-motion";
 import Layout from "./Layout";
 import Home from "./components/Home";
-import AboutUs from "./components/AboutUs";
+// import AboutUs from "./components/AboutUs";
 import Jobs from "./components/Jobs";
-import WhyCodegene from "./components/WhyCodegene";
-import Services from "./components/Services";
+import Community from "./components/Community";
+// import WhyCodegene from './components/WhyCodegene';
+// import Services from './components/Services';
 import ContactUs from "./components/ContactUs";
 import ApplyForm from "./components/ApplyForm";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Terms from "./components/Terms";
+import LoaderComponent from "./common/loaderComponent";
+const AboutUs = React.lazy(() => import("./components/AboutUs"));
+const WhyCodegene = React.lazy(() => import("./components/WhyCodegene"));
+const Services = React.lazy(() => import("./components/Services"));
 
 const App = () => {
   const ref = useRef(null);
@@ -21,70 +26,103 @@ const App = () => {
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('visible');
+      mainControls.start("visible");
       // slideControls.start("visible");
     }
   }, [isInView, mainControls]);
 
   const router = createBrowserRouter([
     {
-      path: '',
+      path: "",
       element: <Layout />,
       children: [
         {
-          path: '/',
+          path: "/",
           element: <Home />,
         },
         {
           path: "/aboutus",
-          element: <AboutUs />,
+          element: (
+            <React.Suspense
+              fallback={
+                <>
+                  <LoaderComponent />
+                </>
+              }
+            >
+              <AboutUs />
+            </React.Suspense>
+          ),
         },
         {
-          path: '/jobs',
+          path: "/jobs",
           element: <Jobs />,
         },
-      
+        {
+          path: "community",
+          element: <Community />,
+        },
         {
           path: "/whycodegene",
-          element: <WhyCodegene />,
+          element: (
+            <React.Suspense
+              fallback={
+                <>
+                  <LoaderComponent />
+                </>
+              }
+            >
+              <WhyCodegene />
+            </React.Suspense>
+          ),
         },
         {
           path: "/services",
-          element: <Services />,
+          element: (
+            <React.Suspense
+              fallback={
+                <>
+                  <LoaderComponent />
+                </>
+              }
+            >
+              <Services />
+            </React.Suspense>
+          ),
         },
         {
-          path: 'contactus',
+          path: "contactus",
           element: <ContactUs />,
         },
         {
-          path: 'applyform',
+          path: "applyform",
           element: <ApplyForm />,
         },
         {
-          path: 'privacy',
+          path: "privacy",
           element: <PrivacyPolicy />,
         },
         {
-          path: 'terms',
+          path: "terms",
           element: <Terms />,
         },
       ],
     },
 
     {
-      path: '*',
+      path: "*",
       element: (
-        <div className='text-center'>
-          <h3 className='mt-5 text-default-color'>Page was not Found...😫</h3>
+        <div className="text-center">
+          <h3 className="mt-5 text-default-color">Page was not Found...😫</h3>
         </div>
       ),
     },
   ]);
 
   return (
-    <div ref={ref} className='position-relative'>
+    <div ref={ref} className="position-relative">
       <motion.div
-        className='codegene_pvr'
+        className="codegene_pvr"
         variants={{
           hidden: {
             opacity: 0,
@@ -92,7 +130,7 @@ const App = () => {
           },
           visible: { opacity: 1, y: 0 },
         }}
-        initial='hidden'
+        initial="hidden"
         animate={mainControls}
         transition={{ duration: 0.5, delay: 0.25 }}
       >

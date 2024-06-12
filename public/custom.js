@@ -1,4 +1,4 @@
-// setTimeout(() => {
+setTimeout(() => {
 
 /*!
  * Webflow: Front-end site library
@@ -10849,4 +10849,4 @@ Webflow.require('ix2').init({
  *   Webflow.push(readyFunction);
  */
 
-// }, 1000);
+}, 1000);
