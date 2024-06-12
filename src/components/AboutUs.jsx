@@ -59,7 +59,7 @@ const AboutUs = () => {
         <section className="main_banner">
           <div className="row">
             <motion.div
-              variants={fadeIn("left", 0.8)}
+              variants={fadeIn("left", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
@@ -77,7 +77,7 @@ const AboutUs = () => {
               </p>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.8)}
+              variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}

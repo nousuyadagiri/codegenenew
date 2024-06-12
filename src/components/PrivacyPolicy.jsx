@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <motion.div
-        variants={fadeIn("right", 0.8)}
+        variants={fadeIn("right", 0.3)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}

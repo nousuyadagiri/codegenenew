@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { useNavigate } from "react-router-dom";
 import CountUp from "react-countup";
-import gifImage1 from "../assets/images/gifs/7.gif";
+import gifImage1 from "../assets/images/gifs/4.gif";
 import gifImage2 from "../assets/images/gifs/8.gif";
 import gifImage3 from "../assets/images/gifs/9.gif";
 import Employees from "../common/Employees";
@@ -24,7 +24,7 @@ const WhyCodegene = () => {
           >
             <div className="col-xl-12">
               <motion.h1
-                variants={fadeIn("right", 0.8)}
+                variants={fadeIn("right", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
@@ -113,7 +113,7 @@ const WhyCodegene = () => {
         </section>
         <section className="jobs_section">
           <motion.div
-            variants={fadeIn("right", 0.8)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}

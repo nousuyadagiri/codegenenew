@@ -66,7 +66,7 @@ const ApplyForm = () => {
               <form onSubmit={formSubmit}>
                 {/* basic details */}
                 <motion.div
-                  variants={fadeIn("right", 0.9)}
+                  variants={fadeIn("right", 0.3)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: true, amount: 0.7 }}
@@ -149,7 +149,7 @@ const ApplyForm = () => {
 
                 {/* experience */}
                 <motion.div
-                  variants={fadeIn("left", 0.9)}
+                  variants={fadeIn("left", 0.3)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: true, amount: 0.7 }}
@@ -233,7 +233,7 @@ const ApplyForm = () => {
 
                 {/* salary expectation */}
                 <motion.div
-                  variants={fadeIn("right", 0.9)}
+                  variants={fadeIn("right", 0.3)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: true, amount: 0.7 }}
@@ -340,7 +340,7 @@ const ApplyForm = () => {
 
                 {/* social media links */}
                 <motion.div
-                  variants={fadeIn("left", 0.9)}
+                  variants={fadeIn("left", 0.3)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: true, amount: 0.7 }}
@@ -381,7 +381,7 @@ const ApplyForm = () => {
 
                 {/* submit button */}
                 <motion.div
-                  variants={fadeIn("right", 0.9)}
+                  variants={fadeIn("right", 0.3)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: true, amount: 0.7 }}

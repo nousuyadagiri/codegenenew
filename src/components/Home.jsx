@@ -6,8 +6,6 @@ import gifImage2 from "../assets/images/gifs/4.gif";
 import gifImage3 from "../assets/images/gifs/5.gif";
 import gifImage4 from "../assets/images/gifs/down-arrow.gif";
 import Image1 from "../assets/images/1.png";
-// import Image3 from "../assets/images/3.png";
-// import User1 from "../assets/images/users/5.jpg";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/pagination";
