@@ -1,21 +1,16 @@
-import React, { useEffect, useRef } from 'react';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { motion, useInView, useAnimation } from 'framer-motion';
-import Layout from './Layout';
-import Home from './components/Home';
-// import AboutUs from "./components/AboutUs";
-import Jobs from './components/Jobs';
-import Community from './components/Community';
-// import WhyCodegene from './components/WhyCodegene';
-// import Services from './components/Services';
-import ContactUs from './components/ContactUs';
-import ApplyForm from './components/ApplyForm';
-import PrivacyPolicy from './components/PrivacyPolicy';
-import Terms from './components/Terms';
-import LoaderComponent from './common/loaderComponent';
-const AboutUs = React.lazy(() => import('./components/AboutUs'));
-const WhyCodegene = React.lazy(() => import('./components/WhyCodegene'));
-const Services = React.lazy(() => import('./components/Services'));
+import React, { useEffect, useRef } from "react";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { motion, useInView, useAnimation } from "framer-motion";
+import Layout from "./Layout";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import Jobs from "./components/Jobs";
+import WhyCodegene from "./components/WhyCodegene";
+import Services from "./components/Services";
+import ContactUs from "./components/ContactUs";
+import ApplyForm from "./components/ApplyForm";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Terms from "./components/Terms";
 
 const App = () => {
   const ref = useRef(null);
@@ -41,54 +36,21 @@ const App = () => {
           element: <Home />,
         },
         {
-          path: '/aboutus',
-          element: (
-            <React.Suspense
-              fallback={
-                <>
-                  <LoaderComponent />
-                </>
-              }
-            >
-              <AboutUs />
-            </React.Suspense>
-          ),
+          path: "/aboutus",
+          element: <AboutUs />,
         },
         {
           path: '/jobs',
           element: <Jobs />,
         },
+      
         {
-          path: 'community',
-          element: <Community />,
+          path: "/whycodegene",
+          element: <WhyCodegene />,
         },
         {
-          path: '/whycodegene',
-          element: (
-            <React.Suspense
-              fallback={
-                <>
-                  <LoaderComponent />
-                </>
-              }
-            >
-              <WhyCodegene />
-            </React.Suspense>
-          ),
-        },
-        {
-          path: '/services',
-          element: (
-            <React.Suspense
-              fallback={
-                <>
-                  <LoaderComponent />
-                </>
-              }
-            >
-              <Services />
-            </React.Suspense>
-          ),
+          path: "/services",
+          element: <Services />,
         },
         {
           path: 'contactus',
