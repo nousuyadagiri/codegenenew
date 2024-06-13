@@ -16,7 +16,7 @@ const FindGoals = () => {
         className="bg-light px-2 px-lg-4 py-3 py-lg-0 mb-0 mt-5"
       >
         <motion.div
-          variants={fadeIn("right", 0.6)}
+          variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}

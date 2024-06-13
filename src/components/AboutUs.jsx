@@ -15,7 +15,7 @@ import "../../node_modules/swiper/swiper.css";
 import "../../node_modules/swiper/modules/navigation.css";
 import "../../node_modules/swiper/modules/pagination.css";
 import "../../node_modules/swiper/modules/scrollbar.css";
-import Employee1 from "../assets/images/users/5.jpg";
+import Employee1 from "../assets/images/user-image.jpg";
 import LinkedinImage from "../assets/images/linkedin.png";
 import aboutImage2 from "../assets/images/1.jpg";
 import Employees from "../common/Employees";
@@ -65,15 +65,16 @@ const AboutUs = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-lg-6 col-12 col-sm-12 my-auto"
             >
-              <h1 className="fs-50 mb-3 mt-5">
-                Empowering people to realise their true potential
+              <h1 className="fs-44 mb-3 mt-5">
+                Empowering Individuals and Businesses with Innovative Software
+                Solutions
               </h1>
               <p className="mb-0 text-muted fs-16 banner_info_text">
-                The work culture is evolving, but we still spend a good amount
-                of time with our jobs. The question really is that if you are in
-                the right place that helps you grow as a professional. We exist
-                to empower people to realise their true potential and find the
-                right opportunity and team that will inspire you.
+                In a world where work culture is rapidly evolving, finding the
+                right environment to thrive professionally is paramount. At
+                CodeGene.io, we’re not just about creating software - we’re
+                about empowering individuals and businesses alike to realize
+                their true potential.
               </p>
             </motion.div>
             <motion.div
@@ -100,18 +101,19 @@ const AboutUs = () => {
               <h2 className="text-primary fw-bold">Our Story</h2>
             </div>
             <div className="col-lg-7">
-              <h3>
-                Enabling seamless access to high growth organizations for top
-                talent
-              </h3>
+              <h3>Empowering Talent, Unleashing Opportunities</h3>
               <p className="text-muted">
-                Our aim is to bridge the gap between talent and opportunity and
-                become the most preferred partner for talent to have access to
-                right opportunities. We open doors for promising candidates to
-                work with seed to unicorn startups and get experience not only
-                across different technical domains but also work cultures. The
-                idea is to bring along opportunities for individuals to
-                accelerate their career by entering unfamiliar territories
+                At CodeGene.io, we’re on a transformative journey. Our mission?
+                Empowering top talent to effortlessly navigate towards
+                high-growth organizations. We’re the premier gateway to a
+                diverse array of opportunities, from nascent startups to
+                industry-leading unicorns. But we’re more than just a
+                platform—we’re a catalyst for professional growth, fostering
+                both technical expertise and cultural fluency. As we expand,
+                efficiency and productivity are our guiding lights, propelling
+                us to pioneer cutting-edge software solutions. Join us as we
+                rewrite the rules of talent acquisition and shape the future of
+                organizational success.
               </p>
             </div>
           </motion.div>
@@ -143,11 +145,14 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Passion & purpose</h5>
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Rem sequi architecto quam! Eligendi autem cumque ex
-                        animi, facere sint, hic laboriosam vitae quas laudantium
-                        consectetur voluptatum minus voluptas dignissimos
-                        aperiam mollitia aspernatur, deserunt eveniet.
+                        Passion isn’t just a spark; it’s the roaring flame that
+                        ignites purpose and drives us forward. We’re fueled by
+                        an unyielding dedication to harnessing the power of
+                        technology to conquer complex challenges and create
+                        meaningful impact. Our journey is defined by an
+                        insatiable hunger for innovation and a profound sense of
+                        purpose, propelling individuals and businesses worldwide
+                        towards bound
                       </p>
                     </div>
                   </div>
@@ -170,11 +175,12 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Adaptability</h5>
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Rem sequi architecto quam! Eligendi autem cumque ex
-                        animi, facere sint, hic laboriosam vitae quas laudantium
-                        consectetur voluptatum minus voluptas dignissimos
-                        aperiam mollitia aspernatur, deserunt eveniet.
+                        adaptability is not just a philosophy; it’s a way of
+                        life. We thrive in the face of change, leveraging it as
+                        a catalyst for innovation and growth. Through agile
+                        methodologies, continuous learning, and flexible
+                        solutions, we empower our team to navigate complex
+                        challenges with ease.
                       </p>
                     </div>
                   </div>
@@ -197,11 +203,12 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Learning & experimentation</h5>
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Rem sequi architecto quam! Eligendi autem cumque ex
-                        animi, facere sint, hic laboriosam vitae quas laudantium
-                        consectetur voluptatum minus voluptas dignissimos
-                        aperiam mollitia aspernatur, deserunt eveniet.
+                        We believe in the power of perpetual growth. Our culture
+                        fosters curiosity and embraces experimentation as
+                        essential catalysts for innovation. Through continuous
+                        education and hands-on exploration, we equip our team
+                        with the tools and knowledge needed to stay ahead in a
+                        dynamic digital landscape.
                       </p>
                     </div>
                   </div>
@@ -224,11 +231,13 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Customer Success</h5>
                       <p className="text-muted">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Rem sequi architecto quam! Eligendi autem cumque ex
-                        animi, facere sint, hic laboriosam vitae quas laudantium
-                        consectetur voluptatum minus voluptas dignissimos
-                        aperiam mollitia aspernatur, deserunt eveniet.
+                        Customer success is more than just a goal; it’s our
+                        driving force. We are deeply committed to the success
+                        and satisfaction of our clients, understanding that
+                        their triumphs are the true measure of our own success.
+                        With a customer-centric approach ingrained in our
+                        culture, we go above and beyond to anticipate and
+                        fulfill the needs of our clients.
                       </p>
                     </div>
                   </div>

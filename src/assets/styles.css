@@ -2238,15 +2238,15 @@ textarea.w-select {
 
 .home_section h1 {
   text-align: center;
-  letter-spacing: 0;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
   font-family: Arges, sans-serif;
-  font-size: 40vw !important;
+  font-size: 11vw !important;
   font-weight: 400;
-  line-height: 0.88 !important;
+  line-height: 1 !important;
 }
 
 /* h2 {
@@ -2265,7 +2265,7 @@ textarea.w-select {
 }
 
 .home_section h2 {
-  max-width: 18ch;
+  max-width: 20ch;
 }
 
 .home_section .button {

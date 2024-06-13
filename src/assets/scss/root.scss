@@ -116,6 +116,10 @@ h6 {
   font-size: 1.563rem;
 }
 
+.fs-44 {
+  font-size: clamp(23px, 8vw, 44px);
+}
+
 .fs-49 {
   font-size: clamp(23px, 8vw, 48px);
 }
@@ -212,7 +216,7 @@ body {
   letter-spacing: normal;
   // overflow: scroll !important;
   padding-right: 0 !important;
-  overflow: hidden auto;
+  overflow: hidden auto !important;
 }
 
 body::-webkit-scrollbar {

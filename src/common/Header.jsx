@@ -26,21 +26,6 @@ const Header = () => {
     navigate(path);
   };
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 80) {
-  //       setIsSticky(true);
-  //     } else {
-  //       setIsSticky(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
   return (
     <motion.div
       variants={{
@@ -55,7 +40,7 @@ const Header = () => {
         className="navbar navbar-expand-lg  px-0 px-lg-3 py-lg-3"
         aria-label="Offcanvas navbar large"
       >
-        <div className="container-fluid justify-content-lg-between py-2 px-3 px-lg-5 py-lg-0">
+        <div className="container-fluid justify-content-lg-between px-lg-5 py-lg-0">
           <Link className="navbar-brand logo" to="/">
             <img src={codegeneLogo} alt="logo" />
           </Link>
@@ -132,7 +117,7 @@ const Header = () => {
                     }
                     onClick={() => handleNavLinkClick("/whycodegene")}
                   >
-                    <span>Why Codegene</span>
+                    <span>Insights</span>
                   </NavLink>
                 </li>
                 <li className="nav-item">

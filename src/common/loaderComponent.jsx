@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export default function LoaderComponent() {
-  return <div class='loader' style={{ marginTop: '5rem' }}></div>;
+  return <div className="loader" style={{ marginTop: "5rem" }}></div>;
 }

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Link } from "react-router-dom";
 import Employee1 from "../assets/images/users/1.jpg";
 import Employee2 from "../assets/images/users/2.jpg";
 import Employee3 from "../assets/images/users/3.jpg";
@@ -104,15 +105,12 @@ const Employees = () => {
               learning, it inspires you. That is why we invite exceptional
               figures over for conversation that sparks the fire.
             </p>
-            <input
-              name="text"
-              type="text"
-              placeholder="Email ID"
-              className="form-control"
-            />
-            <button className="btn btn-primary mt-3 rounded-1 py-3 fs-20 px-3">
-              Cotact US
-            </button>
+            <Link
+              to="/contactus"
+              className="btn btn-primary mt-3 rounded-1 py-3 fs-20 px-3"
+            >
+              Cotact Us
+            </Link>
           </div>
         </div>
       </section>

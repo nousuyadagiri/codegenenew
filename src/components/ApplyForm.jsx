@@ -363,7 +363,7 @@ const ApplyForm = () => {
                       <span className="input-border"></span>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-2">
+                  <div className="col-lg-12 col-12">
                     <div className="mb-3">
                       <label htmlFor="resume" className="form-label">
                         Upload Resume
