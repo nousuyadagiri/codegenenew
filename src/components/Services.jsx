@@ -439,18 +439,18 @@ const Services = () => {
             Technologies We Used To Develop Applications.
           </motion.h6>
           <motion.div
-            variants={fadeIn("up", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            // variants={fadeIn("up", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: true, amount: 0.7 }}
             className="row py-4"
           >
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -465,11 +465,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -484,11 +484,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+            // variants={fadeIn("right", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: true, amount: 0.7 }}
+            // className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -503,11 +503,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -522,11 +522,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -540,11 +540,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -558,11 +558,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -577,11 +577,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -596,11 +596,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -616,11 +616,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -635,11 +635,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -654,11 +654,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("right", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
-              className="col-xl-3 col-md-4 col-sm-6 col-6"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">

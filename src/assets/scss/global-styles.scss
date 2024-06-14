@@ -24,43 +24,36 @@ a {
 
 /* button styles */
 
-
-@media only screen and (max-width: 992px) { 
-
-  .codegene_pvr .small_bg3::before { 
+@media only screen and (max-width: 992px) {
+  .codegene_pvr .small_bg3::before {
     left: 18px !important;
     width: clamp(22px, 12vw, 100px);
     height: clamp(40px, 13vw, 100px);
   }
 
-.codegene_pvr .small_bg3:first-child { 
+  .codegene_pvr .small_bg3:first-child {
     padding-left: 1rem;
-}
-
-.get_started {
-
-  &::after {
-    content: "";
-    width: 60%;
-    border-top: 2px dashed #efeff0;
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    z-index: -2;
   }
-} 
-// .home_section .container { 
-//   padding-top: 2rem !important;
-// }
 
-// .home_section .container { 
-//   bottom: -13rem !important;
-// }
+  .get_started {
+    &::after {
+      content: "";
+      width: 60%;
+      border-top: 2px dashed #efeff0;
+      position: absolute;
+      left: 20%;
+      top: 50%;
+      z-index: -2;
+    }
+  }
+  // .home_section .container {
+  //   padding-top: 2rem !important;
+  // }
 
-
+  // .home_section .container {
+  //   bottom: -13rem !important;
+  // }
 }
-
-
 
 /* dropdown styles */
 @media only screen and (min-width: 992px) {
@@ -70,10 +63,6 @@ a {
     left: unset;
   }
 }
-
-
-
-
 
 .header {
   .navbar-menu-wrapper {
@@ -269,7 +258,7 @@ a {
   .logo {
     img {
       // height: clamp(2.5rem, 10vw, 3rem);
-      width: 12rem;
+      width: 11rem;
       object-fit: cover;
     }
   }
@@ -559,7 +548,7 @@ a {
       position: absolute;
       content: "";
       top: -18px;
-      left: 37% ;
+      left: 37%;
       width: clamp(40px, 16vw, 100px);
       height: clamp(40px, 16vw, 100px);
       background-color: var(--fx-white);
@@ -567,23 +556,19 @@ a {
       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
   }
-  .get_started { 
+  .get_started {
     display: flex;
     justify-content: space-between;
   }
 
-  .fs_mb { 
+  .fs_mb {
     font-size: 1rem;
   }
 
-
-
   @media only screen and (min-width: 992px) {
-
-  
     .get_started {
       position: relative;
-     
+
       &::after {
         content: "";
         width: 60%;
@@ -601,11 +586,9 @@ a {
       // display: none;
     }
 
-    .small_gifss { 
+    .small_gifss {
       width: 2.3rem;
     }
-  
-
   }
   .stabs_img {
     width: 30rem;
@@ -1239,6 +1222,13 @@ a {
       z-index: 100;
     }
   }
+  @media (max-width: 991.9px) {
+    .hero {
+      .go_down {
+        width: 11%;
+      }
+    }
+  }
   .parallax_section {
     position: relative;
     background-color: #0d1b2a;
@@ -1361,10 +1351,12 @@ a {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 900;
+    text-transform: uppercase;
     padding-top: 0;
-    font-family: Arges, sans-serif;
+    letter-spacing: 8px;
+    font-family: "Raleway", sans-serif;
     font-size: 10vw !important;
-    font-weight: 400;
     line-height: 1 !important;
     z-index: 99 !important;
   }
