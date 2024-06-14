@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { useNavigate, Link } from "react-router-dom";
 import aboutImage1 from "../assets/images/gifs/Developer3.gif";
-import gifImage1 from "../assets/images/gifs/3.gif";
-import gifImage2 from "../assets/images/gifs/4.gif";
-import gifImage3 from "../assets/images/gifs/5.gif";
+// import gifImage1 from "../assets/images/gifs/3.gif";
+// import gifImage2 from "../assets/images/gifs/4.gif";
+// import gifImage3 from "../assets/images/gifs/5.gif";
 import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
 

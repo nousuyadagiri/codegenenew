@@ -65,7 +65,11 @@ const Footer = () => {
             ©2024 Codegene.io, All rights reserved
           </p>
           <div>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.facebook.com/people/Codegene-Software-Solutions/100075971750940/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="ms-3 ri-facebook-box-fill"></i>
             </a>
             <a
@@ -75,10 +79,11 @@ const Footer = () => {
             >
               <i className="ms-3 ri-linkedin-box-fill"></i>
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <i className="ms-3 ri-youtube-fill"></i>
-            </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://x.com/CodegeneS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="ms-3 ri-twitter-x-fill"></i>
             </a>
           </div>

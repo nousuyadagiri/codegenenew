@@ -2,23 +2,24 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import aboutImage1 from "../assets/images/4.png";
-import { Link, useNavigate } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Autoplay,
-  Scrollbar,
-  A11y,
-} from "swiper/modules";
+import {  useNavigate } from "react-router-dom";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import {
+//   Navigation,
+//   Pagination,
+//   Autoplay,
+//   Scrollbar,
+//   A11y,
+// } from "swiper/modules";
 import "../../node_modules/swiper/swiper.css";
 import "../../node_modules/swiper/modules/navigation.css";
 import "../../node_modules/swiper/modules/pagination.css";
 import "../../node_modules/swiper/modules/scrollbar.css";
-import Employee1 from "../assets/images/user-image.jpg";
-import LinkedinImage from "../assets/images/linkedin.png";
+// import Employee1 from "../assets/images/users/pavan-rebba.jpeg";
+// import Employee2 from "../assets/images/users/5.jpg";
+// import LinkedinImage from "../assets/images/linkedin.png";
 import aboutImage2 from "../assets/images/1.jpg";
-import Employees from "../common/Employees";
+// import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
 
 const AboutUs = () => {
@@ -235,7 +236,7 @@ const AboutUs = () => {
             </motion.div>
           </div>
         </section>
-        <section className="our_team">
+        {/* <section className="our_team">
           <motion.h3
             variants={fadeIn("left", 0.2)}
             initial="hidden"
@@ -503,7 +504,105 @@ const AboutUs = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-        </section>
+        </section> */}
+
+        {/* <section className="our_team">
+          <motion.h3
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: true, amount: 0.7 }}
+            className="fs-25 text-center fw-bold mb-5"
+          >
+            Our Team
+          </motion.h3>
+          <div className="row">
+            <div className="col-xl-6">
+              <div className="card shadow-none mb-0">
+                <div className="card-body">
+                  <div className="d-flex align-items-center">
+                    <img
+                      src={Employee1}
+                      alt="img"
+                      width="150"
+                      height="150"
+                      className="rounded-circle object-fit-cover"
+                    />
+                  </div>
+                  <p className="mb-0 team_details ms-4 mt-4">
+                    {" "}
+                    <span className="employe_name">
+                      Pavan Kumar
+                    </span> &nbsp; <span className="designation">CEO</span>
+                    &nbsp;&nbsp;
+                    <Link
+                      to="https://www.linkedin.com/in/v-n-sai-kumar-murari-30a33619b/"
+                      target="_blank"
+                    >
+                      <img
+                        src={LinkedinImage}
+                        alt="img"
+                        width="18"
+                        height="18"
+                        className="object-fit-cover"
+                      />
+                    </Link>
+                  </p>
+                  <p className="mt-3 text-muted textHightlight">
+                    Our visionary CEO, embodies excellence and innovation. With
+                    a proven track record of strategic leadership and unwavering
+                    commitment to client satisfaction, Pavan drives our company
+                    towards continual growth and success. Under his guidance, we
+                    are propelled towards excellence in every endeavor, ensuring
+                    promising outcomes for our clients and stakeholders alike.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="card shadow-none mb-0">
+                <div className="card-body">
+                  <div className="d-flex align-items-center">
+                    <img
+                      src={Employee2}
+                      alt="img"
+                      width="150"
+                      height="150"
+                      className="rounded-circle object-fit-cover"
+                    />
+                  </div>
+                  <p className="mb-0 team_details ms-4 mt-4">
+                    {" "}
+                    <span className="employe_name">Sai Murari</span> &nbsp;{" "}
+                    <span className="designation">TL</span>
+                    &nbsp;&nbsp;
+                    <Link
+                      to="https://www.linkedin.com/in/v-n-sai-kumar-murari-30a33619b/"
+                      target="_blank"
+                    >
+                      <img
+                        src={LinkedinImage}
+                        alt="img"
+                        width="18"
+                        height="18"
+                        className="object-fit-cover"
+                      />
+                    </Link>
+                  </p>
+                  <p className="mt-3 text-muted textHightlight">
+                    Our accomplished Project Manager, driving our company
+                    towards success. With a sharp focus on project efficiency
+                    and team collaboration, Tejasvi ensures seamless execution
+                    of our initiatives, ensuring timely delivery and exceptional
+                    results. Her strategic vision and dedication to excellence
+                    propel our company towards achieving its goals with
+                    precision and success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> */}
       </div>
 
       <section className="join_us">
@@ -518,13 +617,13 @@ const AboutUs = () => {
             <h1 className=" text-center fw-bold mb-4">Join Us</h1>
             <p className="mb-3 text-white-75">
               Why settle for normal, when you are meant for bigger things? Be a
-              part of the Recro Squad and lead futuristic tech innovations
+              part of the Codegene Squad and lead futuristic tech innovations
             </p>
             <button
               className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn shadow mb-4 mb-lg-0"
               onClick={() => navigate("/contactus")}
             >
-              I'm Intrested{" "}
+              I'm Interested{" "}
               <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>
             </button>
           </motion.div>
@@ -541,7 +640,7 @@ const AboutUs = () => {
       </section>
 
       <div className="container">
-        <Employees />
+        {/* <Employees /> */}
         <FindGoals />
       </div>
     </>

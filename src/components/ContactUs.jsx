@@ -257,7 +257,7 @@ const ContactUs = () => {
         </div>
       </section>
       <>
-        <Employees />
+        {/* <Employees /> */}
         <FindGoals />
       </>
     </div>

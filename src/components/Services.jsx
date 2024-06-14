@@ -101,97 +101,9 @@ const Services = () => {
           <div className="row">
             <div
               className="col-xl-6 col-12 col-sm-6 col-md-6"
-              id="web-security"
-            >
-              <div className="card main-services2 small_bg2">
-                <div className="card-body">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 -960 960 960"
-                  >
-                    <path d="M680-280q25 0 42.5-17.5T740-340q0-25-17.5-42.5T680-400q-25 0-42.5 17.5T620-340q0 25 17.5 42.5T680-280Zm0 120q31 0 57-14.5t42-38.5q-22-13-47-20t-52-7q-27 0-52 7t-47 20q16 24 42 38.5t57 14.5ZM480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v227q-19-8-39-14.5t-41-9.5v-147l-240-90-240 90v188q0 47 12.5 94t35 89.5Q310-290 342-254t71 60q11 32 29 61t41 52q-1 0-1.5.5t-1.5.5Zm200 0q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80ZM480-494Z" />
-                  </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Web Security</h6>
-                  <p className="text-muted">
-                    Employing robust web security measures, our fintech-focused
-                    tech startup safeguards sensitive data, mitigates cyber
-                    threats, ensures regulatory compliance, fosters user trust,
-                    and maintains operational resilience across web and mobile
-                    platforms, thereby enhancing competitiveness and customer
-                    satisfaction.
-                  </p>
-                  <ul className="list-services">
-                    <li>Advanced encryption safeguards user information.</li>
-                    <li>Swift action against emerging cyber threats.</li>
-                    <li>Adherence to GDPR and PCI-DSS standards.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
-              <div className="card main-services2 small_bg2 mt-5">
-                <div className="card-body">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 -960 960 960"
-                  >
-                    <path d="M838-65 720-183v89h-80v-226h226v80h-90l118 118-56 57ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 20-2 40t-6 40h-82q5-20 7.5-40t2.5-40q0-20-2.5-40t-7.5-40H654q3 20 4.5 40t1.5 40q0 20-1.5 40t-4.5 40h-80q3-20 4.5-40t1.5-40q0-20-1.5-40t-4.5-40H386q-3 20-4.5 40t-1.5 40q0 20 1.5 40t4.5 40h134v80H404q12 43 31 82.5t45 75.5q20 0 40-2.5t40-4.5v82q-20 2-40 4.5T480-80ZM170-400h136q-3-20-4.5-40t-1.5-40q0-20 1.5-40t4.5-40H170q-5 20-7.5 40t-2.5 40q0 20 2.5 40t7.5 40Zm34-240h118q9-37 22.5-72.5T376-782q-55 18-99 54.5T204-640Zm172 462q-18-34-31.5-69.5T322-320H204q29 51 73 87.5t99 54.5Zm28-462h152q-12-43-31-82.5T480-798q-26 36-45 75.5T404-640Zm234 0h118q-29-51-73-87.5T584-782q18 34 31.5 69.5T638-640Z" />
-                  </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Web3.0</h6>
-                  <p className="text-muted">
-                    The idea of a new, decentralized internet built on
-                    blockchains represents a significant shift from the
-                    traditional centralized model. This decentralized internet
-                    aims to enhance privacy, security
-                  </p>
-                  <ul className="list-services">
-                    <li>Enhanced security through decentralization.</li>
-                    <li>
-                      Streamlined transactions through blockchain technology.
-                    </li>
-                    <li>Reduced costs with decentralized finance protocols.</li>
-                    <li>Borderless opportunities for growth and expansion</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="webapps">
-              <div className="card main-services2 small_bg2 mt-3">
-                <div className="card-body">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 -960 960 960"
-                  >
-                    <path d="M680-120q-17 0-28.5-11.5T640-160v-318q0-17 11.5-28.5T680-518h160q17 0 28.5 11.5T880-478v318q0 17-11.5 28.5T840-120H680Zm0-80h160v-238H680v238Zm-360 80v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h560q33 0 56.5 23.5T800-760v162h-80v-162H160v400h400v80h-80v80h80v80H320Zm28-290 92-70 92 70-34-114 92-74H476l-36-112-36 112H290l92 74-34 114Zm92-150Z" />
-                  </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Mobile & Web Apps</h6>
-                  <p className="text-muted">
-                    Utilizing both WebApps and MobApps is essential for reaching
-                    and engaging clients across various platforms, ensuring
-                    seamless accessibility and user experience.
-                  </p>
-                  <ul className="list-services">
-                    <li>
-                      Access financial services and gaming across multiple
-                      devices and platforms.
-                    </li>
-                    <li>
-                      Transition smoothly between financial tasks and gaming
-                      experiences.
-                    </li>
-                    <li>
-                      Navigate intuitive interfaces for convenient access to
-                      both financial and gaming features.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="blockchaindev"
             >
-              <div className="card main-services2 small_bg2 mt-3">
+              <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -221,6 +133,34 @@ const Services = () => {
                 </div>
               </div>
             </div>
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
+              <div className="card main-services2 small_bg2">
+                <div className="card-body">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                  >
+                    <path d="M838-65 720-183v89h-80v-226h226v80h-90l118 118-56 57ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 20-2 40t-6 40h-82q5-20 7.5-40t2.5-40q0-20-2.5-40t-7.5-40H654q3 20 4.5 40t1.5 40q0 20-1.5 40t-4.5 40h-80q3-20 4.5-40t1.5-40q0-20-1.5-40t-4.5-40H386q-3 20-4.5 40t-1.5 40q0 20 1.5 40t4.5 40h134v80H404q12 43 31 82.5t45 75.5q20 0 40-2.5t40-4.5v82q-20 2-40 4.5T480-80ZM170-400h136q-3-20-4.5-40t-1.5-40q0-20 1.5-40t4.5-40H170q-5 20-7.5 40t-2.5 40q0 20 2.5 40t7.5 40Zm34-240h118q9-37 22.5-72.5T376-782q-55 18-99 54.5T204-640Zm172 462q-18-34-31.5-69.5T322-320H204q29 51 73 87.5t99 54.5Zm28-462h152q-12-43-31-82.5T480-798q-26 36-45 75.5T404-640Zm234 0h118q-29-51-73-87.5T584-782q18 34 31.5 69.5T638-640Z" />
+                  </svg>
+                  <h6 className="fw-bold mb-2 mt-4">Web3.0</h6>
+                  <p className="text-muted">
+                    The idea of a new, decentralized internet built on
+                    blockchains represents a significant shift from the
+                    traditional centralized model. This decentralized internet
+                    aims to enhance privacy, security
+                  </p>
+                  <ul className="list-services">
+                    <li>Enhanced security through decentralization.</li>
+                    <li>
+                      Streamlined transactions through blockchain technology.
+                    </li>
+                    <li>Reduced costs with decentralized finance protocols.</li>
+                    <li>Borderless opportunities for growth and expansion</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <div
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="digital-banking"
@@ -292,29 +232,94 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="gaming">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="webapps">
+              <div className="card main-services2 small_bg2 mt-3">
+                <div className="card-body">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                  >
+                    <path d="M680-120q-17 0-28.5-11.5T640-160v-318q0-17 11.5-28.5T680-518h160q17 0 28.5 11.5T880-478v318q0 17-11.5 28.5T840-120H680Zm0-80h160v-238H680v238Zm-360 80v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h560q33 0 56.5 23.5T800-760v162h-80v-162H160v400h400v80h-80v80h80v80H320Zm28-290 92-70 92 70-34-114 92-74H476l-36-112-36 112H290l92 74-34 114Zm92-150Z" />
+                  </svg>
+                  <h6 className="fw-bold mb-2 mt-4">Mobile & Web Apps</h6>
+                  <p className="text-muted">
+                    Utilizing both WebApps and MobApps is essential for reaching
+                    and engaging clients across various platforms, ensuring
+                    seamless accessibility and user experience.
+                  </p>
+                  <ul className="list-services">
+                    <li>
+                      Access financial services and gaming across multiple
+                      devices and platforms.
+                    </li>
+                    <li>
+                      Transition smoothly between financial tasks and gaming
+                      experiences.
+                    </li>
+                    <li>
+                      Navigate intuitive interfaces for convenient access to
+                      both financial and gaming features.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="web-security"
+            >
+              <div className="card main-services2 small_bg2">
+                <div className="card-body">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                  >
+                    <path d="M680-280q25 0 42.5-17.5T740-340q0-25-17.5-42.5T680-400q-25 0-42.5 17.5T620-340q0 25 17.5 42.5T680-280Zm0 120q31 0 57-14.5t42-38.5q-22-13-47-20t-52-7q-27 0-52 7t-47 20q16 24 42 38.5t57 14.5ZM480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v227q-19-8-39-14.5t-41-9.5v-147l-240-90-240 90v188q0 47 12.5 94t35 89.5Q310-290 342-254t71 60q11 32 29 61t41 52q-1 0-1.5.5t-1.5.5Zm200 0q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80ZM480-494Z" />
+                  </svg>
+                  <h6 className="fw-bold mb-2 mt-4">Web Security</h6>
+                  <p className="text-muted">
+                    Employing robust web security measures, our fintech-focused
+                    tech startup safeguards sensitive data, mitigates cyber
+                    threats, ensures regulatory compliance, fosters user trust,
+                    and maintains operational resilience across web and mobile
+                    platforms, thereby enhancing competitiveness and customer
+                    satisfaction.
+                  </p>
+                  <ul className="list-services">
+                    <li>Advanced encryption safeguards user information.</li>
+                    <li>Swift action against emerging cyber threats.</li>
+                    <li>Adherence to GDPR and PCI-DSS standards.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="apidev">
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 -960 960 960"
                   >
-                    <path d="M182-200q-51 0-79-35.5T82-322l42-300q9-60 53.5-99T282-760h396q60 0 104.5 39t53.5 99l42 300q7 51-21 86.5T778-200q-21 0-39-7.5T706-230l-90-90H344l-90 90q-15 15-33 22.5t-39 7.5Zm16-86 114-114h336l114 114q2 2 16 6 11 0 17.5-6.5T800-304l-44-308q-4-29-26-48.5T678-680H282q-30 0-52 19.5T204-612l-44 308q-2 11 4.5 17.5T182-280q2 0 16-6Zm482-154q17 0 28.5-11.5T720-480q0-17-11.5-28.5T680-520q-17 0-28.5 11.5T640-480q0 17 11.5 28.5T680-440Zm-80-120q17 0 28.5-11.5T640-600q0-17-11.5-28.5T600-640q-17 0-28.5 11.5T560-600q0 17 11.5 28.5T600-560ZM310-440h60v-70h70v-60h-70v-70h-60v70h-70v60h70v70Zm170-40Z" />
+                    <path d="m480-400-80-80 80-80 80 80-80 80Zm-85-235L295-735l185-185 185 185-100 100-85-85-85 85ZM225-295 40-480l185-185 100 100-85 85 85 85-100 100Zm510 0L635-395l85-85-85-85 100-100 185 185-185 185ZM480-40 295-225l100-100 85 85 85-85 100 100L480-40Z" />
                   </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Gaming</h6>
+                  <h6 className="fw-bold mb-2 mt-4">API Development</h6>
                   <p className="text-muted">
-                    Specializing in gaming development for web and mobile
-                    platforms, our team crafts immersive experiences that drive
-                    engagement, foster creativity, enable monetization, build
-                    communities, and expand brand reach through interactive
-                    entertainment.
+                    Specializing in API development facilitates seamless
+                    integration, scalability, customization, security, and
+                    innovation for web and mobile applications, empowering
+                    efficient data exchange and functionality expansion in the
+                    financial sector.
                   </p>
                   <ul className="list-services">
-                    <li>Captivating gameplay boosts retention rates.</li>
                     <li>
-                      Innovative storytelling creates memorable experiences.
+                      Streamline workflows with easy third-party integration.
                     </li>
-                    <li>Social features foster a loyal fan base.</li>
+                    <li>Ensure performance as your user base grows.</li>
+                    <li>
+                      Prioritize robust measures for data protection and
+                      compliance.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -350,8 +355,37 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="ai-mi">
+
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="gaming">
               <div className="card main-services2 small_bg2 mt-5">
+                <div className="card-body">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                  >
+                    <path d="M182-200q-51 0-79-35.5T82-322l42-300q9-60 53.5-99T282-760h396q60 0 104.5 39t53.5 99l42 300q7 51-21 86.5T778-200q-21 0-39-7.5T706-230l-90-90H344l-90 90q-15 15-33 22.5t-39 7.5Zm16-86 114-114h336l114 114q2 2 16 6 11 0 17.5-6.5T800-304l-44-308q-4-29-26-48.5T678-680H282q-30 0-52 19.5T204-612l-44 308q-2 11 4.5 17.5T182-280q2 0 16-6Zm482-154q17 0 28.5-11.5T720-480q0-17-11.5-28.5T680-520q-17 0-28.5 11.5T640-480q0 17 11.5 28.5T680-440Zm-80-120q17 0 28.5-11.5T640-600q0-17-11.5-28.5T600-640q-17 0-28.5 11.5T560-600q0 17 11.5 28.5T600-560ZM310-440h60v-70h70v-60h-70v-70h-60v70h-70v60h70v70Zm170-40Z" />
+                  </svg>
+                  <h6 className="fw-bold mb-2 mt-4">Gaming</h6>
+                  <p className="text-muted">
+                    Specializing in gaming development for web and mobile
+                    platforms, our team crafts immersive experiences that drive
+                    engagement, foster creativity, enable monetization, build
+                    communities, and expand brand reach through interactive
+                    entertainment.
+                  </p>
+                  <ul className="list-services">
+                    <li>Captivating gameplay boosts retention rates.</li>
+                    <li>
+                      Innovative storytelling creates memorable experiences.
+                    </li>
+                    <li>Social features foster a loyal fan base.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="ai-mi">
+              <div className="card main-services2 small_bg2">
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -382,36 +416,6 @@ const Services = () => {
                     <li>
                       AI extracts insights from large datasets for informed
                       planning.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="apidev">
-              <div className="card main-services2 small_bg2 mt-5">
-                <div className="card-body">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 -960 960 960"
-                  >
-                    <path d="m480-400-80-80 80-80 80 80-80 80Zm-85-235L295-735l185-185 185 185-100 100-85-85-85 85ZM225-295 40-480l185-185 100 100-85 85 85 85-100 100Zm510 0L635-395l85-85-85-85 100-100 185 185-185 185ZM480-40 295-225l100-100 85 85 85-85 100 100L480-40Z" />
-                  </svg>
-                  <h6 className="fw-bold mb-2 mt-4">API Development</h6>
-                  <p className="text-muted">
-                    Specializing in API development facilitates seamless
-                    integration, scalability, customization, security, and
-                    innovation for web and mobile applications, empowering
-                    efficient data exchange and functionality expansion in the
-                    financial sector.
-                  </p>
-                  <ul className="list-services">
-                    <li>
-                      Streamline workflows with easy third-party integration.
-                    </li>
-                    <li>Ensure performance as your user base grows.</li>
-                    <li>
-                      Prioritize robust measures for data protection and
-                      compliance.
                     </li>
                   </ul>
                 </div>
@@ -451,6 +455,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech1"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -470,6 +475,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech2"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -489,6 +495,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech3"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -508,6 +515,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech4"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -527,6 +535,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech5"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -545,6 +554,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech6"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -563,6 +573,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech7"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -582,6 +593,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech8"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -601,6 +613,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech9"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -621,6 +634,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech10"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -640,6 +654,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech11"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -659,6 +674,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              id="tech12"
             >
               <div className="card shadow rounded-0 tech-images">
                 <div className="card-body">
@@ -675,7 +691,7 @@ const Services = () => {
           </motion.div>
         </section>
         <>
-          <Employees />
+          {/* <Employees /> */}
           <FindGoals />
         </>
       </div>
@@ -684,7 +700,6 @@ const Services = () => {
 };
 
 export default Services;
-
 
 //  text-align: center;
 //     letter-spacing: 2px;

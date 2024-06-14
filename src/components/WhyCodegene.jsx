@@ -117,12 +117,13 @@ const WhyCodegene = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
+            
             className="row justify-content-evenly"
           >
             <div className="col-lg-5">
               <button
                 className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn mb-4 mb-lg-0"
-                onClick={() => navigate("/jobs")}
+                onClick={() => navigate("/contactus")}
               >
                 Work with us
                 <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>
@@ -192,7 +193,7 @@ const WhyCodegene = () => {
         </motion.div>
       </section>
       <div className="container">
-        <Employees />
+        {/* <Employees /> */}
         <FindGoals />
       </div>
     </>
