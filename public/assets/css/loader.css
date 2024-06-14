@@ -4,6 +4,14 @@
   margin: auto;
   position: relative;
 }
+.loader-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  min-height: 100vh;
+  left: 50%;
+}
 
 .loader:before {
   content: "";

@@ -22,24 +22,22 @@ const Services = () => {
 
   const { hash } = useLocation();
 
-  console.log(hash, "dddd");
-  useEffect(() => {
-    if (hash) {
-      const element = document.getElementById(hash.replace("#", ""));
-      if (element) {
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest",
-        });
-        element.style.paddingTop = "100px";
-      }
-    }
-  }, [hash]);
+  // console.log(hash, "dddd");
+  // useEffect(() => {
+  //   if (hash) {
+  //     const element = document.getElementById(hash.replace("#", ""));
+  //     if (element) {
+  //       element.scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "start",
+  //         inline: "nearest",
+  //       });
+  //       element.style.paddingTop = "100px";
+  //     }
+  //   }
+  // }, [hash]);
 
-  
-
-  console.log("services compoinen");
+  // console.log("services compoinen");
   return (
     <>
       <div className="container">
@@ -500,10 +498,13 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
-              
               id="tech1"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech1" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">1</span>
                   <img src={techImage1} alt="techimage" className="mb-4" />
@@ -523,7 +524,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech2"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images ${
+                  hash === "#tech2" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">2</span>
                   <img src={techImage2} alt="techimage" className="mb-4" />
@@ -543,7 +548,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech3"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech3" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">3</span>
                   <img src={techImage3} alt="techimage" className="mb-4" />
@@ -563,7 +572,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech4"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images ${
+                  hash === "#tech4" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">4</span>
                   <img src={techImage4} alt="techimage" className="mb-4" />
@@ -583,7 +596,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech5"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech5" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">5</span>
                   <img src={techImage5} alt="techimage" className="mb-4" />
@@ -602,7 +619,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech6"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech6" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">6</span>
                   <img src={techImage6} alt="techimage" className="mb-4" />
@@ -621,7 +642,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech7"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech7" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">7</span>
                   <img src={techImage7} alt="techimage" className="mb-4" />
@@ -641,7 +666,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech8"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images ${
+                  hash === "#tech8" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">8</span>
                   <img src={techImage8} alt="techimage" className="mb-4" />
@@ -661,7 +690,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech9"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech9" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">9</span>
                   <img src={techImage9} alt="techimage" className="mb-4" />
@@ -682,7 +715,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech10"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images ${
+                  hash === "#tech10" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">10</span>
                   <img src={techImage10} alt="techimage" className="mb-4" />
@@ -702,7 +739,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech11"
             >
-              <div className="card shadow rounded-0 tech-images mt-5">
+              <div
+                className={`card shadow rounded-0 tech-images mt-5 ${
+                  hash === "#tech11" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">11</span>
                   <img src={techImage11} alt="techimage" className="mb-4" />
@@ -722,7 +763,11 @@ const Services = () => {
               className="col-xl-3 col-md-4 col-sm-6 col-12"
               id="tech12"
             >
-              <div className="card shadow rounded-0 tech-images">
+              <div
+                className={`card shadow rounded-0 tech-images ${
+                  hash === "#tech12" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <span className="number-badge float-end">12</span>
                   <img src={techImage12} alt="techimage" className="mb-4" />

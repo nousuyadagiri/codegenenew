@@ -4,11 +4,21 @@ import { Outlet } from "react-router-dom";
 import Header from "./common/Header";
 import Footer from "./common/Footer";
 import ScrollToTop from "./common/ScrollToTop";
+// import LoaderComponent from "./common/loaderComponent";
 
 const Layout = () => {
+  // const [loading, setLoading] = useState(true);
   const { scrollYProgress } = useScroll();
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 6000);
+
+  //   return () => clearTimeout(timer);
+  // }, []);
   return (
     <>
+      {/* {loading && <LoaderComponent />} */}
       <motion.div
         className="progress-bar-scroll"
         style={{ scaleX: scrollYProgress }}

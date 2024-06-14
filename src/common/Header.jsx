@@ -20,9 +20,9 @@ const Header = () => {
   });
 
   const handleNavLinkClick = (path) => {
-    if (offcanvasRef.current) {
-      offcanvasRef.current.classList.remove("show");
-    }
+    // if (offcanvasRef.current) {
+    //   offcanvasRef.current.classList.remove("show");
+    // }
     navigate(path);
   };
 

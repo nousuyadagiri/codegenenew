@@ -568,11 +568,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech3")}>
+                <Link onClick={() => handleButtonClick("tech3")}>
+                  <div className="techimage">
                     <img src={techImage3} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -581,11 +581,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech4")}>
+                <Link onClick={() => handleButtonClick("tech4")}>
+                  <div className="techimage">
                     <img src={techImage4} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -594,11 +594,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech5")}>
+                <Link onClick={() => handleButtonClick("tech5")}>
+                  <div className="techimage">
                     <img src={techImage5} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -607,11 +607,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech6")}>
+                <Link onClick={() => handleButtonClick("tech6")}>
+                  <div className="techimage">
                     <img src={techImage6} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -620,11 +620,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech7")}>
+                <Link onClick={() => handleButtonClick("tech7")}>
+                  <div className="techimage">
                     <img src={techImage7} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -633,11 +633,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech8")}>
+                <Link onClick={() => handleButtonClick("tech8")}>
+                  <div className="techimage">
                     <img src={techImage8} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -646,11 +646,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech9")}>
+                <Link onClick={() => handleButtonClick("tech9")}>
+                  <div className="techimage">
                     <img src={techImage9} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -659,11 +659,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech10")}>
+                <Link onClick={() => handleButtonClick("tech10")}>
+                  <div className="techimage">
                     <img src={techImage10} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -672,11 +672,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech11")}>
+                <Link onClick={() => handleButtonClick("tech11")}>
+                  <div className="techimage">
                     <img src={techImage11} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
                 // variants={fadeIn("right", 0.1)}
@@ -685,11 +685,11 @@ const Home = () => {
                 // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech12")}>
+                <Link onClick={() => handleButtonClick("tech12")}>
+                  <div className="techimage">
                     <img src={techImage12} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
             </motion.div>
           </section>
