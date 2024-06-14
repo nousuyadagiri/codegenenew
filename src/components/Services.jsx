@@ -121,9 +121,9 @@ const Services = () => {
                     satisfaction.
                   </p>
                   <ul className="list-services">
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                    <li>Lorem ipsum dolor sit amet cons.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Advanced encryption safeguards user information.</li>
+                    <li>Swift action against emerging cyber threats.</li>
+                    <li>Adherence to GDPR and PCI-DSS standards.</li>
                   </ul>
                 </div>
               </div>
@@ -170,6 +170,20 @@ const Services = () => {
                     and engaging clients across various platforms, ensuring
                     seamless accessibility and user experience.
                   </p>
+                  <ul className="list-services">
+                    <li>
+                      Access financial services and gaming across multiple
+                      devices and platforms.
+                    </li>
+                    <li>
+                      Transition smoothly between financial tasks and gaming
+                      experiences.
+                    </li>
+                    <li>
+                      Navigate intuitive interfaces for convenient access to
+                      both financial and gaming features.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -191,6 +205,19 @@ const Services = () => {
                     efficiency, revolutionizing industries by providing
                     tamper-proof data storage and automated trust mechanisms.
                   </p>
+                  <ul className="list-services">
+                    <li>
+                      Ensuring tamper-proof transactions and asset protection.
+                    </li>
+                    <li>
+                      Providing real-time tracking and verification of
+                      ownership.
+                    </li>
+                    <li>Streamlining processes to reduce transaction costs.</li>
+                    <li>
+                      Empowering users with greater control and inclusivity.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -213,6 +240,20 @@ const Services = () => {
                     banking experiences to meet the demands of a modern,
                     interconnected world.
                   </p>
+                  <ul className="list-services">
+                    <li>
+                      Offering anytime, anywhere access to financial services
+                      and gaming platforms.
+                    </li>
+                    <li>
+                      Streamlining transactions and account management processes
+                      for enhanced productivity.
+                    </li>
+                    <li>
+                      Tailoring services and gaming experiences to individual
+                      preferences and needs.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -234,6 +275,20 @@ const Services = () => {
                     financial management. FinTech revolutionizes traditional
                     finance by enhancing efficiency, accessibility.
                   </p>
+                  <ul className="list-services">
+                    <li>Merge financial transactions and gaming seamlessly.</li>
+                    <li>
+                      Gamify financial activities for active participation.
+                    </li>
+                    <li>
+                      Provide easy access to financial services and gaming
+                      entertainment.
+                    </li>
+                    <li>
+                      Implement top-tier measures to safeguard users’ data and
+                      assets.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -254,6 +309,13 @@ const Services = () => {
                     communities, and expand brand reach through interactive
                     entertainment.
                   </p>
+                  <ul className="list-services">
+                    <li>Captivating gameplay boosts retention rates.</li>
+                    <li>
+                      Innovative storytelling creates memorable experiences.
+                    </li>
+                    <li>Social features foster a loyal fan base.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -279,6 +341,12 @@ const Services = () => {
                     fosters operational efficiency across web and mobile
                     platforms, revolutionizing financial services delivery.
                   </p>
+                  <ul className="list-services">
+                    <li>Big data analytics drive strategic planning.</li>
+                    <li>Deep understanding boosts satisfaction.</li>
+                    <li>Robust practices ensure legal adherence.</li>
+                    <li>Predictive analytics optimize products.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -302,6 +370,20 @@ const Services = () => {
                     development within fintech, fostering innovation and
                     competitiveness.
                   </p>
+                  <ul className="list-services">
+                    <li>
+                      AI-driven personalization improves engagement and
+                      satisfaction.
+                    </li>
+                    <li>
+                      Machine learning detects and mitigates security threats in
+                      real-time.
+                    </li>
+                    <li>
+                      AI extracts insights from large datasets for informed
+                      planning.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -322,6 +404,16 @@ const Services = () => {
                     efficient data exchange and functionality expansion in the
                     financial sector.
                   </p>
+                  <ul className="list-services">
+                    <li>
+                      Streamline workflows with easy third-party integration.
+                    </li>
+                    <li>Ensure performance as your user base grows.</li>
+                    <li>
+                      Prioritize robust measures for data protection and
+                      compliance.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

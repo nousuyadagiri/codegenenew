@@ -226,8 +226,8 @@ a {
   }
   .logo {
     img {
-      height: clamp(2.5rem, 10vw, 3rem);
-      width: 100%;
+      // height: clamp(2.5rem, 10vw, 3rem);
+      width: 12rem;
       object-fit: cover;
     }
   }

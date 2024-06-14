@@ -169,37 +169,29 @@ const Home = () => {
           </div>
         </div>
         <section className="mb-0 how_start container">
-          <h3 className="fs-25 fw-bold text-center mb-5">
-            How do you get started?
+          <h3 className="fs-25 fw-bold text-center ">
+            How to connect with us?
           </h3>
+          <div className="text-white-50 text-center mb-5">
+            Connect with us and unlock possibilities.
+          </div>
           <div className="row get_started">
             <div className="col-md-4">
               <div className="text-center small_bg3">
                 <img src={gifImage1} alt="img" className="small_gifs" />
-                <h4 className="my-4 fw-semibold">Connect</h4>
-                <p className="text-white-50">
-                  There’s always a piece of code waiting to be written, so send
-                  in your profile right away
-                </p>
+                <h4 className="my-4 fw-semibold">Explore</h4>
               </div>
             </div>
             <div className="col-md-4">
               <div className="text-center small_bg3">
                 <img src={gifImage2} alt="img" className="small_gifs" />
                 <h4 className="my-4 fw-semibold">Collaborate</h4>
-                <p className="text-white-50">
-                  We’ll line you up with opportunities that fit your profile and
-                  experience
-                </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="text-center small_bg3">
                 <img src={gifImage3} alt="img" className="small_gifs" />
-                <h4 className="my-4 fw-semibold">Join</h4>
-                <p className="text-white-50">
-                  That’s it, you’re all set and you can dive right in!
-                </p>
+                <h4 className="my-4 fw-semibold">collaborate</h4>
               </div>
             </div>
           </div>
