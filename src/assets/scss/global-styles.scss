@@ -1310,9 +1310,10 @@ a {
     }
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    &:hover {
+    &:hover,
+    &.active {
       transform: translateY(-10px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px rgba(var(--primary-color), 0.2);
 
       background-color: rgb(var(--primary-color));
       color: var(--fx-white);

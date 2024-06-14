@@ -37,58 +37,22 @@ import { fadeIn } from "../variants";
 const Home = () => {
   const navigate = useNavigate();
 
-  const ref = useRef(null);
+  // const ref = useRef(null);
 
   const handleButtonClick = (sectionId) => {
+    console.log("before");
     navigate(`/services#${sectionId}`);
+    console.log("after");
   };
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end start"],
-  });
+  // const { scrollYProgress } = useScroll({
+  //   target: ref,
+  //   offset: ["start start", "end start"],
+  // });
 
-  const backgroundY = useTransform(scrollYProgress, [0, 3], ["0%", "10%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
+  // const backgroundY = useTransform(scrollYProgress, [0, 3], ["0%", "10%"]);
+  // const textY = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
 
-  // const userData = [
-  //   {
-  //     name: "Sai Murari",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  //   {
-  //     name: "Sai RamaKrishna",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  //   {
-  //     name: "Raghava",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  //   {
-  //     name: "Sravani",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  //   {
-  //     name: "Vennela",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  //   {
-  //     name: "Sathish",
-  //     image: User1,
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam dolorem quos ducimus! Soluta sapiente numquam itaque ut mollitia repudiandae perspiciatis error et nulla! Eum eligendi voluptate voluptatibus, sint magni aliquam assumenda maxime minima!",
-  //   },
-  // ];
   const GoDownPage = () => {
     window.scrollTo({
       top: window.scrollY + 800,
@@ -209,26 +173,30 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div ref={ref} className="parallax_section py-5">
+      <div
+        // ref={ref}
+        className="parallax_section py-5"
+      >
         <motion.div
           className="container position-relative z-3"
-          style={{ y: textY }}
+          // style={{ y: textY }}
         >
           <section className="our_team my-5 py-3">
             <motion.h2
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("left", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+
+              // viewport={{ once: true, amount: 0.7 }}
               className="text-center fw-semibold mb-0"
             >
               Our Services{" "}
             </motion.h2>
             <motion.p
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("left", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
               className="text-white-50 fw-normal text-center"
             >
               Your Success, Elevate Your Experience with Our Outstanding and
@@ -543,48 +511,48 @@ const Home = () => {
 
           <section className="tech_img pb-5">
             <motion.h2
-              variants={fadeIn("left", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("left", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
               className="fw-semibold text-center mb-1"
             >
               Our Technologies
             </motion.h2>
             <motion.h6
-              variants={fadeIn("up", 0.2)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("up", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
               className="text-white-50 fw-normal text-center mb-5"
             >
               Technologies We Use To Develop Applications.
             </motion.h6>
             <motion.div
-              variants={fadeIn("up", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("up", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
               className="row py-4"
             >
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
-                <div className="techimage">
-                  <Link onClick={() => handleButtonClick("tech1")}>
+                <Link onClick={() => handleButtonClick("tech1")}>
+                  <div className="techimage">
                     <img src={techImage1} alt="techimage" />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -594,10 +562,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -607,10 +575,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -620,10 +588,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -633,10 +601,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -646,10 +614,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -659,10 +627,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -672,10 +640,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -685,10 +653,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -698,10 +666,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -711,10 +679,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.3)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -727,12 +695,12 @@ const Home = () => {
           </section>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="parallax_image"
           style={{
             y: backgroundY,
           }}
-        ></motion.div>
+        ></motion.div> */}
       </div>
       <div className="container mt-5">
         <FindGoals />

@@ -78,6 +78,7 @@ const Header = () => {
               <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3 header-right">
                 <li className="nav-item">
                   <NavLink
+                    data-bs-dismiss="offcanvas"
                     to="/home"
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -89,6 +90,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    data-bs-dismiss="offcanvas"
                     to="/aboutus"
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -111,6 +113,7 @@ const Header = () => {
                 </li> */}
                 <li className="nav-item">
                   <NavLink
+                    data-bs-dismiss="offcanvas"
                     to="/whycodegene"
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"
@@ -122,6 +125,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    data-bs-dismiss="offcanvas"
                     to="/services"
                     className={({ isActive }) =>
                       isActive ? "nav-link active" : "nav-link"

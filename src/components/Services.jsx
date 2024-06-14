@@ -22,6 +22,7 @@ const Services = () => {
 
   const { hash } = useLocation();
 
+  console.log(hash, "dddd");
   useEffect(() => {
     if (hash) {
       const element = document.getElementById(hash.replace("#", ""));
@@ -36,6 +37,9 @@ const Services = () => {
     }
   }, [hash]);
 
+  
+
+  console.log("services compoinen");
   return (
     <>
       <div className="container">
@@ -79,7 +83,7 @@ const Services = () => {
             </button> */}
             <button
               className="btn btn-primary btn-lg rounded-0 border-0 contact_us_btn"
-              onClick={() => navigate("/applyform")}
+              onClick={() => navigate("/contactus")}
             >
               Get Started
               <i className="bi bi-arrow-up-right-circle-fill fs-20"></i>
@@ -103,7 +107,11 @@ const Services = () => {
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="blockchaindev"
             >
-              <div className="card main-services2 small_bg2 mt-5">
+              <div
+                className={`card main-services2 small_bg2 mt-5 ${
+                  hash === "#blockchaindev" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +142,11 @@ const Services = () => {
               </div>
             </div>
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
-              <div className="card main-services2 small_bg2">
+              <div
+                className={`card main-services2 small_bg2 ${
+                  hash === "#web3" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +177,11 @@ const Services = () => {
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="digital-banking"
             >
-              <div className="card main-services2 small_bg2 mt-5">
+              <div
+                className={`card main-services2 small_bg2 mt-5 ${
+                  hash === "#digital-banking" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +217,11 @@ const Services = () => {
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="finapps-fintech"
             >
-              <div className="card main-services2 small_bg2 mt-2">
+              <div
+                className={`card main-services2 small_bg2 mt-2 ${
+                  hash === "#finapps-fintech" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +253,11 @@ const Services = () => {
               </div>
             </div>
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="webapps">
-              <div className="card main-services2 small_bg2 mt-3">
+              <div
+                className={`card main-services2 small_bg2 mt-3 ${
+                  hash === "#webapps" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -269,7 +293,11 @@ const Services = () => {
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="web-security"
             >
-              <div className="card main-services2 small_bg2">
+              <div
+                className={`card main-services2 small_bg2 ${
+                  hash === "#web-security" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -295,7 +323,12 @@ const Services = () => {
               </div>
             </div>
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="apidev">
-              <div className="card main-services2 small_bg2 mt-5">
+              {console.log(hash, "sss")}
+              <div
+                className={`card main-services2 small_bg2 mt-5 ${
+                  hash === "#apidev" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +361,11 @@ const Services = () => {
               className="col-xl-6 col-12 col-sm-6 col-md-6"
               id="datamanagment"
             >
-              <div className="card main-services2 small_bg2 mt-2">
+              <div
+                className={`card main-services2 small_bg2 mt-2 ${
+                  hash === "#datamanagment" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +394,11 @@ const Services = () => {
             </div>
 
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="gaming">
-              <div className="card main-services2 small_bg2 mt-5">
+              <div
+                className={`card main-services2 small_bg2 mt-5 ${
+                  hash === "#gaming" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -385,7 +426,11 @@ const Services = () => {
             </div>
 
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="ai-mi">
-              <div className="card main-services2 small_bg2">
+              <div
+                className={`card main-services2 small_bg2 ${
+                  hash === "#ai-mi" ? "active" : ""
+                }`}
+              >
                 <div className="card-body">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -425,19 +470,19 @@ const Services = () => {
         </section>
         <section className="tech_img mb-0">
           <motion.h3
-            variants={fadeIn("left", 0.1)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            // variants={fadeIn("left", 0.1)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: true, amount: 0.7 }}
             className="fw-bold text-center mb-1"
           >
             Our Technologies
           </motion.h3>
           <motion.h6
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }}
+            // variants={fadeIn("up", 0.2)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: true, amount: 0.7 }}
             className="text-muted text-center mb-5"
           >
             Technologies We Used To Develop Applications.
@@ -455,6 +500,7 @@ const Services = () => {
               // whileInView={"show"}
               // viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-12"
+              
               id="tech1"
             >
               <div className="card shadow rounded-0 tech-images mt-5">

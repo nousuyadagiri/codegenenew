@@ -8,10 +8,11 @@ import ContactUs from "./components/ContactUs";
 import ApplyForm from "./components/ApplyForm";
 // import PrivacyPolicy from "./components/PrivacyPolicy";
 // import Terms from "./components/Terms";
+import Services from "./components/Services";
 import LoaderComponent from "./common/loaderComponent";
 const AboutUs = React.lazy(() => import("./components/AboutUs"));
 const WhyCodegene = React.lazy(() => import("./components/WhyCodegene"));
-const Services = React.lazy(() => import("./components/Services"));
+// const Services = React.lazy(() => import("./components/Services"));
 
 const App = () => {
   const ref = useRef(null);
@@ -71,17 +72,7 @@ const App = () => {
         },
         {
           path: "/services",
-          element: (
-            <React.Suspense
-              fallback={
-                <>
-                  <LoaderComponent />
-                </>
-              }
-            >
-              <Services />
-            </React.Suspense>
-          ),
+          element: <Services />,
         },
         {
           path: "contactus",

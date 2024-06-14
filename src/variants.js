@@ -1,4 +1,4 @@
-export const fadeIn = (direction = "up", delay = 0) => {
+export const fadeIn = (direction = "up", delay = 0, duration = 0.8) => {
   const initial = {
     opacity: 0,
     x: 0,
@@ -31,7 +31,7 @@ export const fadeIn = (direction = "up", delay = 0) => {
       transition: {
         type: "tween",
         stiffness: 100,
-        duration: 1.2,
+        duration: duration,
         delay: delay,
         ease: [0.25, 0.25, 0.25, 0.75],
       },
