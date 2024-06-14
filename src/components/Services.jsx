@@ -44,7 +44,7 @@ const Services = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}
-          className="text-center mb-5 pt-5"
+          className="text-center pt-5"
         >
           <motion.h1
             variants={fadeIn("right", 0.3)}
@@ -484,11 +484,11 @@ const Services = () => {
               </div>
             </motion.div>
             <motion.div
-            // variants={fadeIn("right", 0.3)}
-            // initial="hidden"
-            // whileInView={"show"}
-            // viewport={{ once: true, amount: 0.7 }}
-            // className="col-xl-3 col-md-4 col-sm-6 col-12"
+              // variants={fadeIn("right", 0.3)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
+              className="col-xl-3 col-md-4 col-sm-6 col-12"
             >
               <div className="card shadow rounded-0 tech-images mt-5">
                 <div className="card-body">
@@ -684,3 +684,18 @@ const Services = () => {
 };
 
 export default Services;
+
+
+//  text-align: center;
+//     letter-spacing: 2px;
+//     text-transform: uppercase;
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     font-weight: 900;
+//     text-transform: uppercase;
+//     padding-top: 0;
+//     letter-spacing: 8px;
+//     font-family: "Raleway", sans-serif;
+//     font-size: 10vw !important;
+//     line-height: 1 !important;
+//     z-index: 99 !important;
