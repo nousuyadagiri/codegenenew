@@ -28,8 +28,8 @@ const Services = () => {
       if (element) {
         element.scrollIntoView({
           behavior: "smooth",
-          block: "start", 
-          inline: "nearest", 
+          block: "start",
+          inline: "nearest",
         });
         element.style.paddingTop = "100px";
       }
@@ -99,7 +99,10 @@ const Services = () => {
           </motion.p>
           <h3 className="fw-bold my-3">Find Your Best Services here</h3>
           <div className="row">
-            <div className="col-xl-4 col-sm-4 col-md-6" id="web-security">
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="web-security"
+            >
               <div className="card main-services2 small_bg2">
                 <div className="card-body">
                   <svg
@@ -117,10 +120,15 @@ const Services = () => {
                     platforms, thereby enhancing competitiveness and customer
                     satisfaction.
                   </p>
+                  <ul className="list-services">
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet cons.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="web3">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
@@ -136,10 +144,18 @@ const Services = () => {
                     traditional centralized model. This decentralized internet
                     aims to enhance privacy, security
                   </p>
+                  <ul className="list-services">
+                    <li>Enhanced security through decentralization.</li>
+                    <li>
+                      Streamlined transactions through blockchain technology.
+                    </li>
+                    <li>Reduced costs with decentralized finance protocols.</li>
+                    <li>Borderless opportunities for growth and expansion</li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="webapps">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="webapps">
               <div className="card main-services2 small_bg2 mt-3">
                 <div className="card-body">
                   <svg
@@ -157,7 +173,10 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="blockchaindev">
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="blockchaindev"
+            >
               <div className="card main-services2 small_bg2 mt-3">
                 <div className="card-body">
                   <svg
@@ -175,7 +194,10 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="digital-banking">
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="digital-banking"
+            >
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
@@ -194,7 +216,10 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="finapps-fintech">
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="finapps-fintech"
+            >
               <div className="card main-services2 small_bg2 mt-2">
                 <div className="card-body">
                   <svg
@@ -212,7 +237,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="gaming">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="gaming">
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
@@ -232,7 +257,10 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="datamanagment">
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="datamanagment"
+            >
               <div className="card main-services2 small_bg2 mt-2">
                 <div className="card-body">
                   <svg
@@ -254,7 +282,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="ai-mi">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="ai-mi">
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg
@@ -277,7 +305,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-sm-4 col-md-6" id="apidev">
+            <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="apidev">
               <div className="card main-services2 small_bg2 mt-5">
                 <div className="card-body">
                   <svg

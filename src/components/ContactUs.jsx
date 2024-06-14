@@ -96,29 +96,6 @@ const ContactUs = () => {
             </p>
             <form onSubmit={formSubmit}>
               <div className="row shadow-sm bg-white border p-4 mb-4">
-                <div className="col-xl-12">
-                  <div className="mb-3">
-                    <label htmlFor="techstack" className="form-label">
-                      How Can We Help You?{" "}
-                      <span className="text-danger">*</span>
-                    </label>
-                    <select
-                      name="techstack"
-                      value={newForm.techstack}
-                      onChange={handleChange}
-                      className="form-select"
-                      aria-label="Default select example"
-                      required
-                    >
-                      <option value="">select</option>
-                      <option value="Work With Us">Work With Us</option>
-                      <option value="Others">Others</option>
-                    </select>
-                    {/* {errors.techstack && (
-                    <div className="text-danger">{errors.techstack}</div>
-                  )} */}
-                  </div>
-                </div>
                 <div className="col-lg-6 col-12">
                   <div className="mb-3 form">
                     <label htmlFor="firstname" className="form-label">

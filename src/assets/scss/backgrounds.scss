@@ -1,20 +1,6 @@
 .cg-bg-gradient {
   // background-image: linear-gradient(144deg, #00ddeb, #5b42f3 50%, #00ddeb);
-  background: linear-gradient(
-    15deg,
-    #0c13f2,
-    #0032f9,
-    #0045fe,
-    #0054ff,
-    #0060ff,
-    #006cff,
-    #0077ff,
-    #0081ff,
-    #008bff,
-    #0094fb,
-    #009df7,
-    #0ca5f2
-  );
+  background: linear-gradient(45deg, rgba(0, 82, 255, 1) -50%, rgba(23, 162, 255, 1) 150%);
   color: var(--fx-white) !important;
 }
 
@@ -25,7 +11,11 @@
   background-color: transparent;
 }
 .bg-primary {
-  background-color: rgb(var(--primary-color)) !important;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 82, 255, 1) -50%,
+    rgba(23, 162, 255, 1) 150%
+  ) !important;
   color: var(--fx-white) !important;
   &:hover {
     color: var(--fx-white) !important;
