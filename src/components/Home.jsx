@@ -185,7 +185,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="text-center small_bg3">
                 <img src={gifImage2} alt="img" className="small_gifs" />
-                <h4 className="my-4 fw-semibold">Collaborate</h4>
+                <h4 className="my-4 fw-semibold">Connect</h4>
               </div>
             </div>
             <div className="col-md-4">

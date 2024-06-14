@@ -9,14 +9,14 @@ const FindGoals = () => {
   return (
     <>
       <motion.section
-        variants={fadeIn("left", 0.3)}
+        variants={fadeIn("up", 0.1)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: true, amount: 0.7 }}
         className="bg-light px-2 px-lg-4 py-3 py-lg-0 mb-0 mt-5"
       >
         <motion.div
-          variants={fadeIn("right", 0.3)}
+          variants={fadeIn("right", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: true, amount: 0.7 }}

@@ -421,7 +421,7 @@ const Services = () => {
         </section>
         <section className="tech_img mb-0">
           <motion.h3
-            variants={fadeIn("left", 0.2)}
+            variants={fadeIn("left", 0.1)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -452,8 +452,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage1} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">1</span>
+                  <img src={techImage1} alt="techimage" className="mb-4" />
+                  <p>
+                    Experience the future with Blockchain. Seamlessly integrate
+                    finance and gaming for security, transparency, efficiency,
+                    and innovation.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -463,8 +471,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage2} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">2</span>
+                  <img src={techImage2} alt="techimage" className="mb-4" />
+                  <p>
+                    Seamlessly integrate, mobile wallets, and gaming for a
+                    redefined digital experience. Empower yourself with
+                    innovation for seamless integration.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -474,8 +490,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage3} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">3</span>
+                  <img src={techImage3} alt="techimage" className="mb-4" />
+                  <p>
+                    Seamlessly unite finance, mobile wallets, and gaming to
+                    reshape the digital landscape, offering endless
+                    opportunities for innovation and growth.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -485,8 +509,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage4} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">4</span>
+                  <img src={techImage4} alt="techimage" className="mb-4" />
+                  <p>
+                    Merging web and mobile functionalities, our platform
+                    redefines fintech and gaming integration, delivering a
+                    dynamic digital experience.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -496,8 +528,15 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage5} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">5</span>
+                  <img src={techImage5} alt="techimage" className="mb-4" />
+                  <p>
+                    Integrates web, mobile wallets, and gaming seamlessly,
+                    crafting an immersive digital landscape for users.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -507,8 +546,15 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage6} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">6</span>
+                  <img src={techImage6} alt="techimage" className="mb-4" />
+                  <p>
+                    Harmonize's web, mobile wallets, and gaming effortlessly,
+                    refining digital experiences with precision and efficiency.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -518,8 +564,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage7} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">7</span>
+                  <img src={techImage7} alt="techimage" className="mb-4" />
+                  <p>
+                    Power's your web, mobile wallets, and gaming solutions with
+                    robust data management, enhancing performance and
+                    scalability effortlessly.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -529,8 +583,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage8} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">8</span>
+                  <img src={techImage8} alt="techimage" className="mb-4" />
+                  <p>
+                    Harmonize's web, mobile wallets, and gaming functionalities,
+                    ensuring optimal performance and scalability for your
+                    digital endeavors.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -540,8 +602,17 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage9} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">9</span>
+                  <img src={techImage9} alt="techimage" className="mb-4" />
+                  <p>
+                    Harness the full potential of cloud technology to elevate
+                    your web, mobile wallets, and gaming platforms, ensuring
+                    unmatched performance and scalability for your digital
+                    ventures.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -551,8 +622,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage10} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">10</span>
+                  <img src={techImage10} alt="techimage" className="mb-4" />
+                  <p>
+                    Utilizes its robust capabilities to develop cutting-edge
+                    web, mobile wallets, and gaming solutions, driving
+                    innovation and performance.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -562,8 +641,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage11} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images mt-5">
+                <div className="card-body">
+                  <span className="number-badge float-end">11</span>
+                  <img src={techImage11} alt="techimage" className="mb-4" />
+                  <p>
+                    Leverages its powerful features to optimize web, mobile
+                    wallets, and gaming functionalities, ensuring enhanced
+                    performance and efficiency for your digital projects.
+                  </p>
+                </div>
               </div>
             </motion.div>
             <motion.div
@@ -573,8 +660,16 @@ const Services = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-xl-3 col-md-4 col-sm-6 col-6"
             >
-              <div className="techimage">
-                <img src={techImage12} alt="techimage" />
+              <div className="card shadow rounded-0 tech-images">
+                <div className="card-body">
+                  <span className="number-badge float-end">12</span>
+                  <img src={techImage12} alt="techimage" className="mb-4" />
+                  <p>
+                    Propels your fintech web and mobile wallets, alongside
+                    gaming, through efficient and robust development, fostering
+                    user engagement and pioneering solutions.
+                  </p>
+                </div>
               </div>
             </motion.div>
           </motion.div>

@@ -145,14 +145,9 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Passion & purpose</h5>
                       <p className="text-muted">
-                        Passion isn’t just a spark; it’s the roaring flame that
-                        ignites purpose and drives us forward. We’re fueled by
-                        an unyielding dedication to harnessing the power of
-                        technology to conquer complex challenges and create
-                        meaningful impact. Our journey is defined by an
-                        insatiable hunger for innovation and a profound sense of
-                        purpose, propelling individuals and businesses worldwide
-                        towards bound
+                        Passion fuels innovation. We harness technology to
+                        conquer challenges and create meaningful impact,
+                        propelling individuals and businesses forward.
                       </p>
                     </div>
                   </div>
@@ -175,12 +170,11 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Adaptability</h5>
                       <p className="text-muted">
-                        adaptability is not just a philosophy; it’s a way of
-                        life. We thrive in the face of change, leveraging it as
-                        a catalyst for innovation and growth. Through agile
-                        methodologies, continuous learning, and flexible
-                        solutions, we empower our team to navigate complex
-                        challenges with ease.
+                        Embrace adaptability for success. We thrive on change,
+                        using it to innovate and grow. With agile methods and
+                        responsive communication, we deliver solutions that
+                        exceed expectations. Join us on a journey of
+                        transformation and navigate change with confidence.
                       </p>
                     </div>
                   </div>
@@ -203,12 +197,11 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Learning & experimentation</h5>
                       <p className="text-muted">
-                        We believe in the power of perpetual growth. Our culture
-                        fosters curiosity and embraces experimentation as
-                        essential catalysts for innovation. Through continuous
-                        education and hands-on exploration, we equip our team
-                        with the tools and knowledge needed to stay ahead in a
-                        dynamic digital landscape.
+                        Learning & Experimentation: Embrace perpetual growth
+                        with us. Our culture fosters curiosity and
+                        experimentation, driving innovation. Join our journey of
+                        discovery, where every lesson learned propels us towards
+                        greater success.
                       </p>
                     </div>
                   </div>
@@ -231,13 +224,9 @@ const AboutUs = () => {
                     <div className="ms-4">
                       <h5 className="fw-medium">Customer Success</h5>
                       <p className="text-muted">
-                        Customer success is more than just a goal; it’s our
-                        driving force. We are deeply committed to the success
-                        and satisfaction of our clients, understanding that
-                        their triumphs are the true measure of our own success.
-                        With a customer-centric approach ingrained in our
-                        culture, we go above and beyond to anticipate and
-                        fulfill the needs of our clients.
+                        Customer success drives us forward. We’re committed to
+                        your triumphs, going above and beyond to anticipate and
+                        fulfill your needs. Together, we achieve greatness.
                       </p>
                     </div>
                   </div>
