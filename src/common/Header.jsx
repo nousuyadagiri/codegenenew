@@ -139,6 +139,7 @@ const Header = () => {
               <div className="mt-3 mt-lg-0 d-flex justify-content-center">
                 <button
                   className="btn rounded-pill px-4 btn-lg cg_btn_gradient contact_us_btn"
+                  data-bs-dismiss="offcanvas"
                   onClick={() => {
                     if (offcanvasRef.current) {
                       offcanvasRef.current.classList.remove("show");

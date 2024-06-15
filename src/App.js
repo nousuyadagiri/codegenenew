@@ -107,7 +107,7 @@ const App = () => {
   ]);
 
   return (
-    <div ref={ref} className="position-relative">
+    <div ref={ref} className="position-relative codegene_mail">
       <motion.div
         className="codegene_pvr"
         variants={{
@@ -123,6 +123,13 @@ const App = () => {
       >
         <RouterProvider router={router} />
       </motion.div>
+      <a
+        href="mailto:info@codegene.io"
+        className="button info w-button"
+        data-w-id="bb72254c-2d37-9ec6-683b-41c1a0d6805d"
+      >
+        info@codegene.io
+      </a>
       {/* <motion.div
         variants={{
           hidden: {

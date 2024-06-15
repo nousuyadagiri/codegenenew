@@ -79,7 +79,7 @@ const Footer = () => {
       <div className="py-3 bg-primary text-center px-3 px-sm-0">
         <div className="d-sm-flex btn-list social_icons justify-content-around align-items-center">
           <p className="mb-3 mb-sm-0 fw-medium">
-            ©2024 Codegene.io, All rights reserved
+            ©2024 Codegene.io All rights reserved
           </p>
           <div>
             <a

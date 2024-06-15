@@ -70,13 +70,13 @@ const Home = () => {
   return (
     <>
       <div className="home_section position-relative">
-        <a
+        {/* <a
           href="mailto:info@codegene.io"
           className="button info w-button"
           data-w-id="bb72254c-2d37-9ec6-683b-41c1a0d6805d"
         >
           info@codegene.io
-        </a>
+        </a> */}
         <div className="track">
           <div
             data-w-id="ee26dd06-1792-0fbc-8963-79f9b873c782"
@@ -87,7 +87,7 @@ const Home = () => {
             <canvas></canvas>
           </div>
           <section className="hero justify-content-center d-flex align-items-center mb-0">
-            <h1 className="z-1">
+            <h1>
               Empowering Businesses through Digital Ingenuity.
             </h1>
             <img
