@@ -588,17 +588,17 @@ const Home = () => {
               Technologies We Use To Develop Applications.
             </motion.h6>
             <motion.div
-              variants={fadeIn("up", 0.1)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: true, amount: 0.7 }}
+              // variants={fadeIn("up", 0.1)}
+              // initial="hidden"
+              // whileInView={"show"}
+              // viewport={{ once: true, amount: 0.7 }}
               className="row py-4"
             >
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech1")}>
@@ -608,10 +608,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <div className="techimage">
@@ -621,10 +621,10 @@ const Home = () => {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech3")}>
@@ -634,10 +634,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech4")}>
@@ -647,10 +647,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech5")}>
@@ -660,10 +660,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech6")}>
@@ -673,10 +673,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech7")}>
@@ -686,10 +686,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech8")}>
@@ -699,10 +699,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech9")}>
@@ -712,10 +712,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech10")}>
@@ -725,10 +725,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech11")}>
@@ -738,10 +738,10 @@ const Home = () => {
                 </Link>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: true, amount: 0.7 }}
+                // variants={fadeIn("right", 0.1)}
+                // initial="hidden"
+                // whileInView={"show"}
+                // viewport={{ once: true, amount: 0.7 }}
                 className="col-xl-3 col-md-4 col-sm-6 col-6"
               >
                 <Link onClick={() => handleButtonClick("tech12")}>
