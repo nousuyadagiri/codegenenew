@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Joi from "joi";
 import aboutImage1 from "../assets/images/6.png";
-import worldMap from "../assets/images/worldmap.png";
+import worldMap from "../assets/images/cg-aboutus-map.gif";
 import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
 

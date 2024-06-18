@@ -1211,7 +1211,7 @@ a {
     z-index: 0;
     opacity: 0.05;
     height: 100%;
-    background: url("../images/16.png") no-repeat center center fixed;
+    // background: url("../images/16.png") no-repeat center center fixed;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(var(--primary-color), 0.1));
     background-size: contain;
     // background-position: bottom;
@@ -1362,9 +1362,9 @@ a {
       padding: 14px;
     }
   }
-  .world-map {
-    opacity: 0.4;
-  }
+  // .world-map {
+  //   opacity: 0.4;
+  // }
   .home_section h1 {
     text-align: center;
     letter-spacing: 0;
@@ -1400,7 +1400,7 @@ a {
       margin-left: 12px;
       padding: 0.75rem 0rem 0;
       line-height: 20px;
-      font-size: 13px;
+      font-size: 14px;
       list-style-type: disclosure-closed;
     }
   }

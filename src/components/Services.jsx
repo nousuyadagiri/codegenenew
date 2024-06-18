@@ -500,7 +500,7 @@ const Services = () => {
               id="tech1"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-lg-5 ${
                   hash === "#tech1" ? "active" : ""
                 }`}
               >
@@ -524,7 +524,7 @@ const Services = () => {
               id="tech2"
             >
               <div
-                className={`card shadow rounded-0 tech-images ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-0 ${
                   hash === "#tech2" ? "active" : ""
                 }`}
               >
@@ -548,7 +548,7 @@ const Services = () => {
               id="tech3"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-lg-5 mt-4 ${
                   hash === "#tech3" ? "active" : ""
                 }`}
               >
@@ -572,7 +572,7 @@ const Services = () => {
               id="tech4"
             >
               <div
-                className={`card shadow rounded-0 tech-images ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-0 ${
                   hash === "#tech4" ? "active" : ""
                 }`}
               >
@@ -619,7 +619,7 @@ const Services = () => {
               id="tech6"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-5 mt-lg-0 ${
                   hash === "#tech6" ? "active" : ""
                 }`}
               >
@@ -642,7 +642,7 @@ const Services = () => {
               id="tech7"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-5 mb-5 mb-lg-0 ${
                   hash === "#tech7" ? "active" : ""
                 }`}
               >
@@ -690,7 +690,7 @@ const Services = () => {
               id="tech9"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-5 ${
                   hash === "#tech9" ? "active" : ""
                 }`}
               >
@@ -715,7 +715,7 @@ const Services = () => {
               id="tech10"
             >
               <div
-                className={`card shadow rounded-0 tech-images ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-0 ${
                   hash === "#tech10" ? "active" : ""
                 }`}
               >
@@ -739,7 +739,7 @@ const Services = () => {
               id="tech11"
             >
               <div
-                className={`card shadow rounded-0 tech-images mt-5 ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-5 ${
                   hash === "#tech11" ? "active" : ""
                 }`}
               >
@@ -763,7 +763,7 @@ const Services = () => {
               id="tech12"
             >
               <div
-                className={`card shadow rounded-0 tech-images ${
+                className={`card shadow rounded-0 tech-images mt-4 mt-lg-0 ${
                   hash === "#tech12" ? "active" : ""
                 }`}
               >
