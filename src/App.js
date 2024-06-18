@@ -10,6 +10,7 @@ import ApplyForm from "./components/ApplyForm";
 // import Terms from "./components/Terms";
 import Services from "./components/Services";
 import LoaderComponent from "./common/loaderComponent";
+import NotFound from "./common/NotFound";
 const AboutUs = React.lazy(() => import("./components/AboutUs"));
 const WhyCodegene = React.lazy(() => import("./components/WhyCodegene"));
 // const Services = React.lazy(() => import("./components/Services"));
@@ -95,14 +96,7 @@ const App = () => {
 
     {
       path: "*",
-      element: (
-        <div
-          className="text-center d-flex justify-content-center align-items-center"
-          style={{ minHeight: "100vh" }}
-        >
-          <h3 className="mt-5 text-default-color">Page was not Found...😫</h3>
-        </div>
-      ),
+      element: <NotFound />,
     },
   ]);
 

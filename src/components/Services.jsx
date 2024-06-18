@@ -14,7 +14,6 @@ import techImage9 from "../assets/images/technologies/amazon.png";
 import techImage10 from "../assets/images/technologies/java.png";
 import techImage11 from "../assets/images/technologies/bullmq.png";
 import techImage12 from "../assets/images/technologies/swift.png";
-import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
 
 const Services = () => {
@@ -42,14 +41,14 @@ const Services = () => {
     <>
       <div className="container">
         <motion.div
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: true, amount: 0.7 }}
+          // variants={fadeIn("up", 0.2)}
+          // initial="hidden"
+          // whileInView={"show"}
+          // viewport={{ once: true, amount: 0.7 }}
           className="text-center pt-5"
         >
           <motion.h1
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -57,7 +56,7 @@ const Services = () => {
             Design, <span className="fw-light">Development</span>, Security
           </motion.h1>
           <motion.p
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
@@ -101,44 +100,6 @@ const Services = () => {
           </motion.p>
           <h3 className="fw-bold my-3">Find Your Best Services here</h3>
           <div className="row">
-            <div
-              className="col-xl-6 col-12 col-sm-6 col-md-6"
-              id="blockchaindev"
-            >
-              <div
-                className={`card main-services2 small_bg2 mt-5 ${
-                  hash === "#blockchaindev" ? "active" : ""
-                }`}
-              >
-                <div className="card-body">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 -960 960 960"
-                  >
-                    <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q20 0 40 2.5t40 4.5v82q-20-2-40-4.5t-40-2.5q-26 36-45 75.5T404-640h116v80H386q-3 20-4.5 40t-1.5 40q0 20 1.5 40t4.5 40h188q3-20 4.5-40t1.5-40q0-20-1.5-40t-4.5-40h80q3 20 4.5 40t1.5 40q0 20-1.5 40t-4.5 40h136q5-20 7.5-40t2.5-40q0-20-2.5-40t-7.5-40h82q4 20 6 40t2 40q0 83-31.5 156T763-197q-54 54-127 85.5T480-80ZM170-400h136q-3-20-4.5-40t-1.5-40q0-20 1.5-40t4.5-40H170q-5 20-7.5 40t-2.5 40q0 20 2.5 40t7.5 40Zm206 222q-18-34-31.5-69.5T322-320H204q29 51 73 87.5t99 54.5ZM204-640h118q9-37 22.5-72.5T376-782q-55 18-99 54.5T204-640Zm276 478q26-36 45-75.5t31-82.5H404q12 43 31 82.5t45 75.5Zm104-16q55-18 99-54.5t73-87.5H638q-9 37-22.5 72.5T584-178Zm56-462v-240h240v240H640Zm120-120h80v-80h-80v80Z" />
-                  </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Blockchain Develpment</h6>
-                  <p className="text-muted">
-                    Blockchain offers unparalleled security, transparency, and
-                    efficiency, revolutionizing industries by providing
-                    tamper-proof data storage and automated trust mechanisms.
-                  </p>
-                  <ul className="list-services">
-                    <li>
-                      Ensuring tamper-proof transactions and asset protection.
-                    </li>
-                    <li>
-                      Providing real-time tracking and verification of
-                      ownership.
-                    </li>
-                    <li>Streamlining processes to reduce transaction costs.</li>
-                    <li>
-                      Empowering users with greater control and inclusivity.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
               <div
                 className={`card main-services2 small_bg2 ${
@@ -166,6 +127,44 @@ const Services = () => {
                     </li>
                     <li>Reduced costs with decentralized finance protocols.</li>
                     <li>Borderless opportunities for growth and expansion</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-6 col-12 col-sm-6 col-md-6"
+              id="blockchaindev"
+            >
+              <div
+                className={`card main-services2 small_bg2 mt-5 ${
+                  hash === "#blockchaindev" ? "active" : ""
+                }`}
+              >
+                <div className="card-body">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -960 960 960"
+                  >
+                    <path d="M120-80v-280h120v-160h200v-80H320v-280h320v280H520v80h200v160h120v280H520v-280h120v-80H320v80h120v280H120Zm280-600h160v-120H400v120ZM200-160h160v-120H200v120Zm400 0h160v-120H600v120ZM480-680ZM360-280Zm240 0Z" />
+                  </svg>
+                  <h6 className="fw-bold mb-2 mt-4">Blockchain Develpment</h6>
+                  <p className="text-muted">
+                    Blockchain offers unparalleled security, transparency, and
+                    efficiency, revolutionizing industries by providing
+                    tamper-proof data storage and automated trust mechanisms.
+                  </p>
+                  <ul className="list-services">
+                    <li>
+                      Ensuring tamper-proof transactions and asset protection.
+                    </li>
+                    <li>
+                      Providing real-time tracking and verification of
+                      ownership.
+                    </li>
+                    <li>Streamlining processes to reduce transaction costs.</li>
+                    <li>
+                      Empowering users with greater control and inclusivity.
+                    </li>
                   </ul>
                 </div>
               </div>

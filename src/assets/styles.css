@@ -2243,9 +2243,9 @@ textarea.w-select {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  font-family: Arges, sans-serif;
-  font-size: 11vw !important;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 10vw !important;
+  font-weight: 900;
   line-height: 1 !important;
 }
 
@@ -2325,18 +2325,38 @@ textarea.w-select {
 
 .home_section .hero {
   min-height: 100vh;
-  /* background-image: url("https://assets.website-files.com/651458e00a5b38e384f2affb/651458e00a5b38e384f2b001_smoke.jpg"); */
-  background-position: 50%;
-  background-color: rgb(var(--primary-color));
+  /* background-position: 50%; */
+  /* background: linear-gradient(
+    45deg,
+    rgba(0, 82, 255, 1) -50%,
+    rgba(23, 162, 255, 1) 150%
+  ); */
+  background: linear-gradient(300deg,#17a2ff,#0052ff,#17a2ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
   justify-content: center;
   align-items: center;
   margin-top: -100vh;
   display: flex;
+  
 }
 
+/* CSS */
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .home_section .hero h1 {
   color: #fff;
 }

@@ -2,62 +2,20 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import aboutImage1 from "../assets/images/4.png";
-import {  useNavigate } from "react-router-dom";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import {
-//   Navigation,
-//   Pagination,
-//   Autoplay,
-//   Scrollbar,
-//   A11y,
-// } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
 import "../../node_modules/swiper/swiper.css";
 import "../../node_modules/swiper/modules/navigation.css";
 import "../../node_modules/swiper/modules/pagination.css";
 import "../../node_modules/swiper/modules/scrollbar.css";
-// import Employee1 from "../assets/images/users/pavan-rebba.jpeg";
-// import Employee2 from "../assets/images/users/5.jpg";
-// import LinkedinImage from "../assets/images/linkedin.png";
 import aboutImage2 from "../assets/images/1.jpg";
-// import Employees from "../common/Employees";
 import FindGoals from "../common/FindGoals";
 
 const AboutUs = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <section className="hero-heading-center">
-        <div className="container py-5">
-          <div className="hero-wrapper-2">
-            <div className="hero-split-2">
-              <h1 className=" margin-bottom-32px fs-49">
-                Empowering people to realise their true potential
-              </h1>
-              <p className="margin-bottom-24px-2">
-                The work culture is evolving, but we still spend a good amount
-                of time with our jobs. The question really is that if you are in
-                the right place that helps you grow as a professional. We exist
-                to empower people to realise their true potential and find the
-                right opportunity and team that will inspire you.
-              </p>
-              <a href="#" className="btn btn-lg cg_btn_gradient rounded-0">
-                Start for free
-              </a>
-            </div>
-            <div className="hero-split-2"></div>
-            <div
-              className="spline-scene"
-              data-w-id="5f807120-ead5-f929-e79e-281d3d0e8454"
-              data-animation-type="spline"
-              data-spline-url="https://prod.spline.design/4vNY-RXmBR4dLqx1/scene.splinecode"
-            >
-              <canvas></canvas>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <div className="container">
-        <section className="main_banner">
+        <section className="main_banner peopel_priority">
           <div className="row">
             <motion.div
               variants={fadeIn("left", 0.3)}
@@ -67,7 +25,9 @@ const AboutUs = () => {
               className="col-lg-6 col-12 col-sm-12 my-auto"
             >
               <h1 className="fs-44 mb-3 mt-5">
-                Empowering Individuals and Businesses with Innovative Software
+                <span className="text-highlighter">Empowering</span> Individuals
+                and <span className="text-highlighter">Businesses</span> with{" "}
+                <span className="text-highlighter">Innovative</span> Software
                 Solutions
               </h1>
               <p className="mb-0 text-muted fs-16 banner_info_text">
@@ -83,9 +43,9 @@ const AboutUs = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-lg-6 col-12 col-sm-12 text-end"
+              className="col-lg-6 col-12 col-sm-12 text-end bg-highlight"
             >
-              <img src={aboutImage1} alt="img" className="animated_gif" />
+              <img src={aboutImage1} alt="img" className="animated_gif " />
             </motion.div>
           </div>
         </section>
@@ -236,6 +196,7 @@ const AboutUs = () => {
             </motion.div>
           </div>
         </section>
+
         {/* <section className="our_team">
           <motion.h3
             variants={fadeIn("left", 0.2)}
@@ -640,7 +601,6 @@ const AboutUs = () => {
       </section>
 
       <div className="container">
-        {/* <Employees /> */}
         <FindGoals />
       </div>
     </>

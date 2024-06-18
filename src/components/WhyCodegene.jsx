@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { fadeIn } from "../variants";
 import { useNavigate } from "react-router-dom";
 import CountUp from "react-countup";
@@ -11,6 +11,16 @@ import FindGoals from "../common/FindGoals";
 
 const WhyCodegene = () => {
   const navigate = useNavigate();
+
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.2 1"],
+  });
+
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
   return (
     <>
       <section className="why_Codegene">
@@ -65,8 +75,10 @@ const WhyCodegene = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-md-4 mt-auto"
             >
-              <div className="text-center small_bg">
-                <img src={gifImage1} alt="img" className="small_gifs" />
+              <div className="text-center mb-5 mb-md-0">
+                <div className="small_bg">
+                  <img src={gifImage1} alt="img" className="small_gifs" />
+                </div>
                 <h4 className="my-4 fw-semibold">Work With the Best</h4>
                 <p className="text-muted">
                   Get to work with the best engineering teams at fast-growing
@@ -81,10 +93,12 @@ const WhyCodegene = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-md-4 mt-auto"
             >
-              <div className="text-center small_bg">
-                <img src={gifImage3} alt="img" className="small_gifs" />
+              <div className="text-center mb-5 mb-md-0">
+                <div className="small_bg">
+                  <img src={gifImage3} alt="img" className="small_gifs" />
+                </div>
                 <h4 className="my-4 fw-semibold">
-                  Employee Wellbeing Comes First
+                  Employee Well-being Comes First
                 </h4>
                 <p className="text-muted">
                   what-makes-us-different Employee Wellbeing Comes First Our
@@ -100,8 +114,10 @@ const WhyCodegene = () => {
               viewport={{ once: true, amount: 0.7 }}
               className="col-md-4 mt-auto"
             >
-              <div className="text-center small_bg">
-                <img src={gifImage2} alt="img" className="small_gifs" />
+              <div className="text-center mb-5 mb-md-0">
+                <div className="small_bg">
+                  <img src={gifImage2} alt="img" className="small_gifs" />
+                </div>
                 <h4 className="my-4 fw-semibold">Keep Challenging Yourself</h4>
                 <p className="text-muted">
                   We provide tailor-made exposure based on your skills and their
@@ -117,7 +133,6 @@ const WhyCodegene = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: true, amount: 0.7 }}
-            
             className="row justify-content-evenly"
           >
             <div className="col-lg-5">
@@ -137,7 +152,14 @@ const WhyCodegene = () => {
           </motion.div>
         </section>
       </div>
-      <section className="bg-primary py-5 profile_details">
+      <motion.section
+        className="bg-primary py-5 profile_details"
+        style={{
+          scale: scaleProgress,
+          opacity: opacityProgress,
+        }}
+        ref={ref}
+      >
         <motion.div
           variants={fadeIn("up", 0.2)}
           initial="hidden"
@@ -191,7 +213,7 @@ const WhyCodegene = () => {
             </div>
           </div>
         </motion.div>
-      </section>
+      </motion.section>
       <div className="container">
         {/* <Employees /> */}
         <FindGoals />

@@ -10,7 +10,7 @@
   align-items: center;
   position: absolute;
   min-height: 100vh;
-  left: 50%;
+  left: 45%;
 }
 
 .loader:before {
