@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useScroll } from "framer-motion";
+import { Toaster } from "react-hot-toast";
 import { Outlet } from "react-router-dom";
 import Header from "./common/Header";
 import Footer from "./common/Footer";
@@ -19,6 +20,7 @@ const Layout = () => {
   return (
     <>
       {/* {loading && <LoaderComponent />} */}
+      <Toaster position="top-right" toastOptions={{ duration: 2000 }} />
       <motion.div
         className="progress-bar-scroll"
         style={{ scaleX: scrollYProgress }}

@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { toast } from "react-hot-toast";
 import Joi from "joi";
 import aboutImage1 from "../assets/images/6.png";
 import worldMap from "../assets/images/cg-aboutus-map.gif";
-import Employees from "../common/Employees";
-import FindGoals from "../common/FindGoals";
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
+  const navigate = useNavigate();
   const initialFormState = {
     firstname: "",
     lastname: "",
@@ -57,6 +58,21 @@ const ContactUs = () => {
     //   });
     //   setErrors(validationErrors);
     // } else {
+
+    try {
+      toast.success("Successfully submitted.");
+      navigate("/");
+      setNewForm({
+        firstname: "",
+        lastname: "",
+        phonenumber: "",
+        email: "",
+        textarea: "",
+      });
+    } catch (error) {
+      console.error("Login error:", error);
+      toast.error("Error while submitting. Please try again.");
+    }
 
     console.log(newForm);
     //   setNewForm(initialFormState);
