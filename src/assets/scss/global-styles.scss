@@ -1608,3 +1608,7 @@ a {
   background-color: #0d1b2a;
   color: #fff;
 }
+.text_highlighter {
+  text-decoration: underline;
+  text-decoration-color: rgb(var(--white-color), 0.3);
+}

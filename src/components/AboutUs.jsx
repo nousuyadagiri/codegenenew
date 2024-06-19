@@ -577,7 +577,10 @@ const AboutUs = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="col-xl-6 my-auto"
           >
-            <h1 className=" text-center fw-bold mb-4">Start Your Journey</h1>
+            <h1 className=" text-center fw-bold mb-4">
+              Start a Partnership Journey with
+              <span className="text_highlighter ms-2">Codegene</span>
+            </h1>
             <p className="mb-3 text-white-75">
               Why settle for normal when you are meant for bigger things? Be a
               part of the Codegene Squad and lead futuristic tech innovations.
