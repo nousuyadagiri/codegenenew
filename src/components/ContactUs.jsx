@@ -1,84 +1,87 @@
 import React, { useState } from "react";
+import axios from "axios";
+import Joi from "joi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { toast } from "react-hot-toast";
-import Joi from "joi";
 import aboutImage1 from "../assets/images/6.png";
 import worldMap from "../assets/images/cg-aboutus-map.gif";
 import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const navigate = useNavigate();
-  const initialFormState = {
-    firstname: "",
-    lastname: "",
-    phonenumber: "",
+  const [form, setForm] = useState({
+    first_name: "",
+    last_name: "",
     email: "",
-    techstack: "",
-    textarea: "",
+    message: "",
+    phone: "",
+    type_of_enquiry: "",
+    captcha: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  // Schema for validation
+  const contactSchema = {
+    first_name: Joi.string().trim().min(3).max(10).required(),
+    last_name: Joi.string().trim().min(3).max(10).required(),
+    email: Joi.string()
+      .trim()
+      .min(3)
+      .max(55)
+      .email({ tlds: { allow: ["com", "net", "org"] } })
+      .required(),
+    message: Joi.string().trim().min(20).max(500).required(),
+    phone: Joi.string().trim().min(10).max(12).required(),
+    type_of_enquiry: Joi.string().trim().min(10).max(50).required(),
+    captcha: Joi.string().trim().min(3).required(),
   };
 
-  const [newForm, setNewForm] = useState(initialFormState);
-  // const [errors, setErrors] = useState({});
-
-  // Joi validation schema
-  // const schema = Joi.object({
-  //   firstname: Joi.string().required().label("First Name"),
-  //   lastname: Joi.string().required().label("Last Name"),
-  //   phonenumber: Joi.string()
-  //     .pattern(new RegExp(/^\d{10}$/))
-  //     .required()
-  //     .label("Phone Number")
-  //     .messages({
-  //       "string.pattern.base": "Phone number must be 10 digits",
-  //     }),
-  //   email: Joi.string().email().required().label("Email"),
-  //   techstack: Joi.string().required().label("How Can We Help You?"),
-  //   textarea: Joi.string().required().label("Message"),
-  // });
-
-  // handle change
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setNewForm({
-      ...newForm,
-      [name]: value,
-    });
+    setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  // form submit
-  const formSubmit = (e) => {
+  const validateForm = () => {
+    const { error } = contactSchema.validate(form, { abortEarly: false });
+    if (!error) return null;
+
+    const validationErrors = {};
+    error.details.forEach((detail) => {
+      validationErrors[detail.path[0]] = detail.message;
+    });
+    return validationErrors;
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // const { error } = schema.validate(newForm, { abortEarly: false });
-    // if (error) {
-    //   const validationErrors = {};
-    //   error.details.forEach((detail) => {
-    //     validationErrors[detail.path[0]] = detail.message;
-    //   });
-    //   setErrors(validationErrors);
-    // } else {
-
-    try {
-      toast.success("Successfully submitted.");
-      navigate("/");
-      setNewForm({
-        firstname: "",
-        lastname: "",
-        phonenumber: "",
-        email: "",
-        textarea: "",
-      });
-    } catch (error) {
-      console.error("Login error:", error);
-      toast.error("Error while submitting. Please try again.");
+    const validationErrors = validateForm();
+    if (validationErrors) {
+      setErrors(validationErrors);
+      return;
     }
 
-    console.log(newForm);
-    //   setNewForm(initialFormState);
-    //   setErrors({});
-    // }
+    try {
+      await axios.post("/member/cg_contact_us", form);
+      toast.success("Successfully submitted.");
+      setForm({
+        first_name: "",
+        last_name: "",
+        email: "",
+        message: "",
+        phone: "",
+        type_of_enquiry: "",
+        captcha: "",
+      });
+      setTimeout(() => {
+        navigate("/");
+      }, 2000); // Navigate after 2 seconds
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast.error("Error while submitting. Please try again.");
+    }
   };
+
 
   const addresses = [
     {
@@ -90,7 +93,6 @@ const ContactUs = () => {
     {
       text: "Room 411, 4th Floor, First Intramuros BF Condominium Corp., Aduana St, Intramuros, Manila, Philippines, 1002",
     },
-
     {
       text: "DivyaSree Solitaire, 15, Inorbit Mall Rd, Madhapur, Hyderabad, Telangana 500081",
     },
@@ -114,70 +116,70 @@ const ContactUs = () => {
             <p className="text-muted mb-4">
               There is a talent waiting to work with a brand like yours.
             </p>
-            <form onSubmit={formSubmit}>
+            <form onSubmit={handleSubmit}>
               <div className="row shadow-sm bg-white border p-4 mb-4">
                 <div className="col-lg-6 col-12">
                   <div className="mb-3 form">
-                    <label htmlFor="firstname" className="form-label">
+                    <label htmlFor="first_name" className="form-label">
                       First Name <span className="text-danger">*</span>
                     </label>
                     <input
                       type="text"
-                      name="firstname"
-                      value={newForm.firstname}
-                      autoFocus
+                      name="first_name"
+                      value={form.first_name}
                       onChange={handleChange}
+                      placeholder="First Name"
+                      autoFocus
                       className="form-control"
-                      id="firstname"
-                      placeholder="Enter your first name"
+                      id="firs_tname"
                       required
                     />
                     <span className="input-border"></span>
-                    {/* {errors.firstname && (
-                    <div className="text-danger">{errors.firstname}</div>
-                  )} */}
+                    {errors.first_name && (
+                      <p className="text-danger">{errors.first_name}</p>
+                    )}
                   </div>
                 </div>
                 <div className="col-lg-6 col-12">
                   <div className="mb-3 form">
-                    <label htmlFor="lastname" className="form-label">
+                    <label htmlFor="last_name" className="form-label">
                       Last Name <span className="text-danger">*</span>
                     </label>
                     <input
                       type="text"
-                      name="lastname"
-                      value={newForm.lastname}
+                      name="last_name"
+                      value={form.last_name}
                       onChange={handleChange}
+                      placeholder="Last Name"
                       className="form-control"
-                      id="lastname"
-                      placeholder="Enter your last name"
+                      id="last_name"
                       required
                     />
                     <span className="input-border"></span>
-                    {/* {errors.lastname && (
-                    <div className="text-danger">{errors.lastname}</div>
-                  )} */}
+                    {errors.last_name && (
+                      <p className="text-danger">{errors.last_name}</p>
+                    )}
                   </div>
                 </div>
                 <div className="col-lg-6 col-12">
                   <div className="mb-3 form">
-                    <label htmlFor="phonenumber" className="form-label">
+                    <label htmlFor="phone" className="form-label">
                       Phone Number <span className="text-danger">*</span>
                     </label>
                     <input
-                      name="phonenumber"
-                      value={newForm.phonenumber}
-                      onChange={handleChange}
                       type="text"
+                      name="phone"
+                      value={form.phone}
+                      onChange={handleChange}
+                      placeholder="Phone"
                       className="form-control"
-                      id="phonenumber"
-                      placeholder="Enter your number"
+                      id="phone"
                       required
                     />
                     <span className="input-border"></span>
-                    {/* {errors.phonenumber && (
-                    <div className="text-danger">{errors.phonenumber}</div>
-                  )} */}
+                    {errors.phone && (
+                      <p className="text-danger">{errors.phone}</p>
+                    )}
                   </div>
                 </div>
                 <div className="col-lg-6 col-12">
@@ -188,17 +190,17 @@ const ContactUs = () => {
                     <input
                       type="email"
                       name="email"
-                      value={newForm.email}
+                      value={form.email}
                       onChange={handleChange}
+                      placeholder="Email"
                       className="form-control"
                       id="email"
-                      placeholder="Enter your email"
                       required
                     />
                     <span className="input-border"></span>
-                    {/* {errors.email && (
-                    <div className="text-danger">{errors.email}</div>
-                  )} */}
+                    {errors.email && (
+                      <p className="text-danger">{errors.email}</p>
+                    )}
                   </div>
                 </div>
                 <div className="col-xl-12">
@@ -207,19 +209,50 @@ const ContactUs = () => {
                       Message <span className="text-danger">*</span>
                     </label>
                     <textarea
-                      type="text"
-                      name="textarea"
-                      value={newForm.textarea}
+                      name="message"
+                      value={form.message}
                       onChange={handleChange}
+                      placeholder="Message"
                       className="form-control"
                       id="textarea"
-                      placeholder="Enter your message"
                       required
                     />
-                    {/* {errors.textarea && (
-                    <div className="text-danger">{errors.textarea}</div>
-                  )} */}
+                    {errors.message && (
+                      <p className="text-danger">{errors.message}</p>
+                    )}
                   </div>
+                </div>
+                <div className="col-xl-12">
+                  <div className="mb-3 form">
+                    <label htmlFor="ype_of_enquiry" className="form-label">
+                      Type of Enquiry <span className="text-danger">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="type_of_enquiry"
+                      value={form.type_of_enquiry}
+                      onChange={handleChange}
+                      className="form-control"
+                      placeholder="Type of Enquiry"
+                    />
+                    {errors.type_of_enquiry && (
+                      <p className="text-danger">{errors.type_of_enquiry}</p>
+                    )}
+                  </div>
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    name="captcha"
+                    value={form.captcha}
+                    onChange={handleChange}
+                    className="form-control"
+                    placeholder="Captcha"
+                  />
+                  {errors.captcha && (
+                    <p className="text-danger">{errors.captcha}</p>
+                  )}
                 </div>
               </div>
               <button

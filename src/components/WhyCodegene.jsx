@@ -38,10 +38,9 @@ const WhyCodegene = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.7 }}
-                className="text-white lh-2 banner-text"
+                className="text-white lh-2 banner-text text-start text-lg-center"
               >
-                Helping developers realize their <br /> maximum potential since
-                2018
+                Helping Developers Achieve <br /> Excellence Since 2018
               </motion.h1>
             </div>
           </motion.div>
@@ -56,7 +55,7 @@ const WhyCodegene = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="fs-25 fw-bold text-center "
           >
-            What makes us different?
+            What sets us apart?
           </motion.h3>
           <motion.p
             variants={fadeIn("down", 0.2)}
@@ -65,7 +64,7 @@ const WhyCodegene = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="text-muted mb-5 text-center"
           >
-            Our people are our top priority.
+            Our team members are our greatest asset.
           </motion.p>
           <div className="row">
             <motion.div
@@ -73,16 +72,18 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-md-4 mt-auto"
+              className="col-md-4 mt-0 mt-lg-5"
             >
               <div className="text-center mb-5 mb-md-0">
                 <div className="small_bg">
                   <img src={gifImage1} alt="img" className="small_gifs" />
                 </div>
-                <h4 className="my-4 fw-semibold">Work with the Best</h4>
+                <h4 className="mt-4 mb-2 fw-semibold">
+                  Collaborate with Top Talent{" "}
+                </h4>
                 <p className="text-muted">
-                  Get to work with the best engineering teams at fast-growing
-                  startups around the world.
+                  Work alongside the best engineering teams at rapidly growing
+                  startups worldwide.
                 </p>
               </div>
             </motion.div>
@@ -91,19 +92,18 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-md-4 mt-auto"
+              className="col-md-4"
             >
               <div className="text-center mb-5 mb-md-0">
                 <div className="small_bg">
                   <img src={gifImage3} alt="img" className="small_gifs" />
                 </div>
-                <h4 className="my-4 fw-semibold">
-                  Employee Well-being Comes First
+                <h4 className="mt-4 mb-2 fw-semibold">
+                  Prioritizing Employee Wellness
                 </h4>
                 <p className="text-muted">
-                  what-makes-us-different Employee Well-being comes first. Our
-                  flexible leave policy and wellness coaches (by YourDOST)
-                  ensure you are the best version of yourself.
+                  Our wellness-first approach includes a flexible leave policy
+                  ensure you thrive.
                 </p>
               </div>
             </motion.div>
@@ -112,16 +112,18 @@ const WhyCodegene = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true, amount: 0.7 }}
-              className="col-md-4 mt-auto"
+              className="col-md-4 mt-0 mt-lg-5"
             >
               <div className="text-center mb-5 mb-md-0">
                 <div className="small_bg">
                   <img src={gifImage2} alt="img" className="small_gifs" />
                 </div>
-                <h4 className="my-4 fw-semibold">Keep challenging yourself</h4>
+                <h4 className="mt-4 mb-2 fw-semibold">
+                  Challenge Ourself Continuously{" "}
+                </h4>
                 <p className="text-muted">
-                  We provide tailor-made exposure based on your skills and their
-                  needs.
+                  We offer customized opportunities tailored to your skills and
+                  the needs of our projects.
                 </p>
               </div>
             </motion.div>
