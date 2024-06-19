@@ -65,12 +65,12 @@ const AboutUs = () => {
               <h3>Empowering Talent, Unleashing Opportunities</h3>
               <p className="text-muted">
                 At CodeGene.io, we’re on a transformative journey. Our mission?
-                Empowering top talent to effortlessly navigate towards
-                high-growth organizations. We’re the premier gateway to a
+                Empowering top talent to navigate towards high-growth
+                organizations effortlessly. We’re the premier gateway to a
                 diverse array of opportunities, from nascent startups to
                 industry-leading unicorns. But we’re more than just a
                 platform—we’re a catalyst for professional growth, fostering
-                both technical expertise and cultural fluency. As we expand,
+                technical expertise and cultural fluency. As we expand,
                 efficiency and productivity are our guiding lights, propelling
                 us to pioneer cutting-edge software solutions. Join us as we
                 rewrite the rules of talent acquisition and shape the future of
@@ -104,7 +104,7 @@ const AboutUs = () => {
                       <i className="bi bi-lightning-fill fs-25 text-primary"></i>
                     </div>
                     <div className="ms-4">
-                      <h5 className="fw-medium">Passion & purpose</h5>
+                      <h5 className="fw-medium">Passion and purpose</h5>
                       <p className="text-muted">
                         Passion fuels innovation. We harness technology to
                         conquer challenges and create meaningful impact,
@@ -156,12 +156,14 @@ const AboutUs = () => {
                       <i className="bi bi-flag-fill fs-25 text-primary"></i>
                     </div>
                     <div className="ms-4">
-                      <h5 className="fw-medium">Learning & experimentation</h5>
+                      <h5 className="fw-medium">
+                        Learning and experimentation
+                      </h5>
                       <p className="text-muted">
                         Learning & Experimentation: Embrace perpetual growth
                         with us. Our culture fosters curiosity and
                         experimentation, driving innovation. Join our journey of
-                        discovery, where every lesson learned propels us towards
+                        discovery, where every lesson learned propels us toward
                         greater success.
                       </p>
                     </div>
@@ -575,10 +577,10 @@ const AboutUs = () => {
             viewport={{ once: true, amount: 0.5 }}
             className="col-xl-6 my-auto"
           >
-            <h1 className=" text-center fw-bold mb-4">Join Us</h1>
+            <h1 className=" text-center fw-bold mb-4">Start Your Journey</h1>
             <p className="mb-3 text-white-75">
-              Why settle for normal, when you are meant for bigger things? Be a
-              part of the Codegene Squad and lead futuristic tech innovations
+              Why settle for normal when you are meant for bigger things? Be a
+              part of the Codegene Squad and lead futuristic tech innovations.
             </p>
             <button
               className="btn cg_btn_gradient btn-lg rounded-0 border-0 contact_us_btn shadow mb-4 mb-lg-0"

@@ -27,7 +27,7 @@ const FindGoals = () => {
               className="btn cg_btn_gradient btn-lg mb-3 mb-lg-0 rounded-0 border-0 contact_us_btn"
               onClick={() => navigate("/contactus")}
             >
-              Find your Goal
+              Find your goal
             </button>
           </div>
           <div className="col-xl-7 col-lg-7 my-auto">
@@ -35,8 +35,7 @@ const FindGoals = () => {
             <p className="mb-0 text-muted">
               Your success is our priority. With tailored solutions and
               unwavering support, we’re here to exceed your expectations and
-              build a partnership based on trust. Let’s achieve greatness
-              together.
+              build a trust-based partnership. Let’s achieve greatness together.
             </p>
           </div>
           <div className="col-xl-2 col-lg-2 my-auto">

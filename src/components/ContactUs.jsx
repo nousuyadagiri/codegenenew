@@ -66,16 +66,16 @@ const ContactUs = () => {
 
   const addresses = [
     {
-      text: "Room 411, 4th Floor, First Intramuros BF Condominium Corp., Aduana St, Intramuros, Manila, Philippines, 1002",
-    },
-    {
       text: "Reg: (EN:37-2050121), 30N GOULD ST, STE R , SHERIDAN , Wyoming, United States -82801",
     },
     {
-      text: "Main Road, Currency Nagar, Vijayawada, Andhra Pradesh, India -520008",
+      text: "Room 411, 4th Floor, First Intramuros BF Condominium Corp., Aduana St, Intramuros, Manila, Philippines, 1002",
     },
     {
       text: "DivyaSree Solitaire, 15, Inorbit Mall Rd, Madhapur, Hyderabad, Telangana 500081",
+    },
+    {
+      text: "Main Road, Currency Nagar, Vijayawada, Andhra Pradesh, India -520008",
     },
   ];
 
@@ -92,7 +92,7 @@ const ContactUs = () => {
           >
             <h3 className="mb-1 mt-5">Let’s have a chat about your growth</h3>
             <p className="text-muted mb-4">
-              There is a talent waiting to work with a brand like you.
+              There is a talent waiting to work with a brand like yours.
             </p>
             <form onSubmit={formSubmit}>
               <div className="row shadow-sm bg-white border p-4 mb-4">
@@ -256,10 +256,6 @@ const ContactUs = () => {
           </motion.div>
         </div>
       </section>
-      <>
-        {/* <Employees /> */}
-        <FindGoals />
-      </>
     </div>
   );
 };

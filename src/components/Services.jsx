@@ -62,8 +62,8 @@ const Services = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="text-muted"
           >
-            Explore our digital services, Lets boost your online presence
-            together !
+            Explore our digital services, Let's boost your online presence
+            together!
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -98,7 +98,7 @@ const Services = () => {
           >
             Our Services <i className="ri-arrow-right-line align-middle"></i>
           </motion.p>
-          <h3 className="fw-bold my-3">Find Your Best Services here</h3>
+          <h3 className="fw-bold my-3">Find your best services here</h3>
           <div className="row">
             <div className="col-xl-6 col-12 col-sm-6 col-md-6" id="web3">
               <div
@@ -118,7 +118,7 @@ const Services = () => {
                     The idea of a new, decentralized internet built on
                     blockchains represents a significant shift from the
                     traditional centralized model. This decentralized internet
-                    aims to enhance privacy, security
+                    aims to enhance privacy, and security
                   </p>
                   <ul className="list-services">
                     <li>Enhanced security through decentralization.</li>
@@ -126,7 +126,7 @@ const Services = () => {
                       Streamlined transactions through blockchain technology.
                     </li>
                     <li>Reduced costs with decentralized finance protocols.</li>
-                    <li>Borderless opportunities for growth and expansion</li>
+                    <li>Borderless opportunities for growth and expansion.</li>
                   </ul>
                 </div>
               </div>
@@ -226,11 +226,11 @@ const Services = () => {
                   >
                     <path d="M260-361v-40H160v-80h200v-80H200q-17 0-28.5-11.5T160-601v-160q0-17 11.5-28.5T200-801h60v-40h80v40h100v80H240v80h160q17 0 28.5 11.5T440-601v160q0 17-11.5 28.5T400-401h-60v40h-80Zm298 240L388-291l56-56 114 114 226-226 56 56-282 282Z" />
                   </svg>
-                  <h6 className="fw-bold mb-2 mt-4">FinApps & FinTech</h6>
+                  <h6 className="fw-bold mb-2 mt-4">FinApps and FinTech</h6>
                   <p className="text-muted">
-                    Fin Apps provide unmatched convenience, enabling on-the-go
+                    FinApps provide unmatched convenience, enabling on-the-go
                     financial management. FinTech revolutionizes traditional
-                    finance by enhancing efficiency, accessibility.
+                    finance by enhancing efficiency and accessibility.
                   </p>
                   <ul className="list-services">
                     <li>Merge financial transactions and gaming seamlessly.</li>
@@ -262,7 +262,7 @@ const Services = () => {
                   >
                     <path d="M680-120q-17 0-28.5-11.5T640-160v-318q0-17 11.5-28.5T680-518h160q17 0 28.5 11.5T880-478v318q0 17-11.5 28.5T840-120H680Zm0-80h160v-238H680v238Zm-360 80v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h560q33 0 56.5 23.5T800-760v162h-80v-162H160v400h400v80h-80v80h80v80H320Zm28-290 92-70 92 70-34-114 92-74H476l-36-112-36 112H290l92 74-34 114Zm92-150Z" />
                   </svg>
-                  <h6 className="fw-bold mb-2 mt-4">Mobile & Web Apps</h6>
+                  <h6 className="fw-bold mb-2 mt-4">Mobile and Web Apps</h6>
                   <p className="text-muted">
                     Utilizing both WebApps and MobApps is essential for reaching
                     and engaging clients across various platforms, ensuring
@@ -371,7 +371,7 @@ const Services = () => {
                     <path d="M480-120q-151 0-255.5-46.5T120-280v-400q0-66 105.5-113T480-840q149 0 254.5 47T840-680v400q0 67-104.5 113.5T480-120Zm0-479q89 0 179-25.5T760-679q-11-29-100.5-55T480-760q-91 0-178.5 25.5T200-679q14 30 101.5 55T480-599Zm0 199q42 0 81-4t74.5-11.5q35.5-7.5 67-18.5t57.5-25v-120q-26 14-57.5 25t-67 18.5Q600-528 561-524t-81 4q-42 0-82-4t-75.5-11.5Q287-543 256-554t-56-25v120q25 14 56 25t66.5 18.5Q358-408 398-404t82 4Zm0 200q46 0 93.5-7t87.5-18.5q40-11.5 67-26t32-29.5v-98q-26 14-57.5 25t-67 18.5Q600-328 561-324t-81 4q-42 0-82-4t-75.5-11.5Q287-343 256-354t-56-25v99q5 15 31.5 29t66.5 25.5q40 11.5 88 18.5t94 7Z" />
                   </svg>
                   <h6 className="fw-bold mb-2 mt-4">
-                    Big data & Data Management
+                    Big Data and Data Management
                   </h6>
                   <p className="text-muted">
                     Leveraging advanced big data and data management strategies
@@ -436,11 +436,11 @@ const Services = () => {
                     <path d="M159-120v-120h124L181-574q-27-15-44.5-44T119-680q0-50 35-85t85-35q39 0 69.5 22.5T351-720h128v-40q0-17 11.5-28.5T519-800q9 0 17.5 4t14.5 12l68-64q9-9 21.5-11.5T665-856l156 72q12 6 16.5 17.5T837-744q-6 12-17.5 15.5T797-730l-144-66-94 88v56l94 86 144-66q11-5 23-1t17 15q6 12 1 23t-17 17l-156 74q-12 6-24.5 3.5T619-512l-68-64q-6 6-14.5 11t-17.5 5q-17 0-28.5-11.5T479-600v-40H351q-3 8-6.5 15t-9.5 15l200 370h144v120H159Zm80-520q17 0 28.5-11.5T279-680q0-17-11.5-28.5T239-720q-17 0-28.5 11.5T199-680q0 17 11.5 28.5T239-640Zm126 400h78L271-560h-4l98 320Zm78 0Z" />
                   </svg>
                   <h6 className="fw-bold mb-2 mt-4">
-                    Artificial Intelligence & Machine Learning
+                    Artificial intelligence and machine learning
                   </h6>
                   <p className="text-muted">
                     Utilizing AI and machine learning, our tech startup
-                    optimizes user experience, enhances security, automates
+                    optimizes the user experience, enhances security, automates
                     processes, personalizes financial services, and analyzes
                     data for strategic decision-making in web and mobile app
                     development within fintech, fostering innovation and
@@ -532,7 +532,7 @@ const Services = () => {
                   <span className="number-badge float-end">2</span>
                   <img src={techImage2} alt="techimage" className="mb-4" />
                   <p>
-                    Seamlessly integrate, mobile wallets, and gaming for a
+                    Seamlessly integrate mobile wallets, and gaming for a
                     redefined digital experience. Empower yourself with
                     innovation for seamless integration.
                   </p>
@@ -580,7 +580,7 @@ const Services = () => {
                   <span className="number-badge float-end">4</span>
                   <img src={techImage4} alt="techimage" className="mb-4" />
                   <p>
-                    Merging web and mobile functionalities, our platform
+                    By merging web and mobile functionalities, our platform
                     redefines fintech and gaming integration, delivering a
                     dynamic digital experience.
                   </p>
@@ -650,7 +650,7 @@ const Services = () => {
                   <span className="number-badge float-end">7</span>
                   <img src={techImage7} alt="techimage" className="mb-4" />
                   <p>
-                    Power's your web, mobile wallets, and gaming solutions with
+                    Power's your web, mobile wallets, and gaming solutions have
                     robust data management, enhancing performance and
                     scalability effortlessly.
                   </p>
@@ -674,8 +674,8 @@ const Services = () => {
                   <span className="number-badge float-end">8</span>
                   <img src={techImage8} alt="techimage" className="mb-4" />
                   <p>
-                    Harmonize's web, mobile wallets, and gaming functionalities,
-                    ensuring optimal performance and scalability for your
+                    Harmonize's web, mobile wallets, and gaming functionalities
+                    ensure optimal performance and scalability for your
                     digital endeavors.
                   </p>
                 </div>

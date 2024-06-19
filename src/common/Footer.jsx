@@ -79,16 +79,9 @@ const Footer = () => {
       <div className="py-3 bg-primary text-center px-3 px-sm-0">
         <div className="d-sm-flex btn-list social_icons justify-content-around align-items-center">
           <p className="mb-3 mb-sm-0 fw-medium">
-            ©2024 Codegene.io All rights reserved
+            ©2024 Codegene.io All rights reserved.
           </p>
           <div>
-            <a
-              href="https://www.facebook.com/people/Codegene-Software-Solutions/100075971750940/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="ms-3 ri-facebook-box-fill"></i>
-            </a>
             <a
               href="https://www.linkedin.com/company/codegene/mycompany/"
               target="_blank"
@@ -97,7 +90,14 @@ const Footer = () => {
               <i className="ms-3 ri-linkedin-box-fill"></i>
             </a>
             <a
-              href="https://x.com/CodegeneS"
+              href="https://www.instagram.com/codegene_technologies/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="ms-3 ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://twitter.com/CodegeneS"
               target="_blank"
               rel="noopener noreferrer"
             >

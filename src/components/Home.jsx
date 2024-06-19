@@ -185,14 +185,14 @@ const Home = () => {
                     Embark on the challenges you’ve always craved exploring,
                     knowing you can rely on us. Our commitment extends beyond
                     mere opportunities, offering perks, health benefits, and a
-                    community of exceptional peers dedicated to your growth
+                    community of exceptional peers dedicated to your growth.
                   </p>
                 </div>
               </div>
             </div>
             <section className="mb-0 how_start container px-2">
               <h3 className="fs-25 fw-bold text-center mb-0">
-                How to connect with us?
+                How do you connect with us?
               </h3>
               <div className="text-white-50 text-center mb-4 pb-4">
                 Connect with us and unlock possibilities.
@@ -306,7 +306,7 @@ const Home = () => {
                         The idea of a new, decentralized internet built on
                         blockchains represents a significant shift from the
                         traditional centralized model. This decentralized
-                        internet aims to enhance privacy, security
+                        internet aims to enhance privacy, security.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"
@@ -361,7 +361,7 @@ const Home = () => {
                       <p className="text-muted textHightlight">
                         Embracing digital banking offers unparalleled
                         convenience, accessibility, and efficiency, transforming
-                        traditional banking experiences to meet the demands
+                        traditional banking experiences to meet the demands.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"
@@ -386,9 +386,9 @@ const Home = () => {
                       </svg>
                       <h5 className="my-3">FinApps & FinTech</h5>
                       <p className="text-muted textHightlight">
-                        Fin Apps provide unmatched convenience, enabling
+                        FinApps provide unmatched convenience, enabling
                         on-the-go financial management. FinTech revolutionizes
-                        traditional finance by enhancing efficiency,
+                        traditional finance by enhancing efficiency, and
                         accessibility.
                       </p>
                       <button
@@ -412,7 +412,7 @@ const Home = () => {
                       >
                         <path d="M680-120q-17 0-28.5-11.5T640-160v-318q0-17 11.5-28.5T680-518h160q17 0 28.5 11.5T880-478v318q0 17-11.5 28.5T840-120H680Zm0-80h160v-238H680v238Zm-360 80v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h560q33 0 56.5 23.5T800-760v162h-80v-162H160v400h400v80h-80v80h80v80H320Zm28-290 92-70 92 70-34-114 92-74H476l-36-112-36 112H290l92 74-34 114Zm92-150Z" />
                       </svg>
-                      <h5 className="my-3">Mobile & Web Apps</h5>
+                      <h5 className="my-3">Mobile and Web Apps</h5>
                       <p className="text-muted textHightlight">
                         Utilizing both WebApps and MobApps is essential for
                         reaching and engaging clients across various platforms,
@@ -444,7 +444,8 @@ const Home = () => {
                       <p className="text-muted textHightlight">
                         Employing robust web security measures, our
                         fintech-focused tech startup safeguards sensitive data,
-                        mitigates cyber threats, ensures regulatory compliance.
+                        mitigates cyber threats, and ensures regulatory
+                        compliance.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"
@@ -494,11 +495,11 @@ const Home = () => {
                       >
                         <path d="M480-120q-151 0-255.5-46.5T120-280v-400q0-66 105.5-113T480-840q149 0 254.5 47T840-680v400q0 67-104.5 113.5T480-120Zm0-479q89 0 179-25.5T760-679q-11-29-100.5-55T480-760q-91 0-178.5 25.5T200-679q14 30 101.5 55T480-599Zm0 199q42 0 81-4t74.5-11.5q35.5-7.5 67-18.5t57.5-25v-120q-26 14-57.5 25t-67 18.5Q600-528 561-524t-81 4q-42 0-82-4t-75.5-11.5Q287-543 256-554t-56-25v120q25 14 56 25t66.5 18.5Q358-408 398-404t82 4Zm0 200q46 0 93.5-7t87.5-18.5q40-11.5 67-26t32-29.5v-98q-26 14-57.5 25t-67 18.5Q600-328 561-324t-81 4q-42 0-82-4t-75.5-11.5Q287-343 256-354t-56-25v99q5 15 31.5 29t66.5 25.5q40 11.5 88 18.5t94 7Z" />
                       </svg>
-                      <h5 className="my-3">Big data & Data Management</h5>
+                      <h5 className="my-3">Big Data & Data Management</h5>
                       <p className="text-muted textHightlight">
                         Leveraging advanced big data and data management
                         strategies optimizes decision-making, enhances customer
-                        insights, ensures regulatory compliance.
+                        insights, and ensures regulatory compliance.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"
@@ -525,7 +526,7 @@ const Home = () => {
                       <p className="text-muted textHightlight">
                         Specializing in gaming development for web and mobile
                         platforms, our team crafts immersive experiences that
-                        drive engagement, foster creativity.
+                        drive engagement, and foster creativity.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"
@@ -551,8 +552,8 @@ const Home = () => {
                       <h5 className="my-3">AI & ML</h5>
                       <p className="text-muted textHightlight">
                         Utilizing AI and machine learning, our tech startup
-                        optimizes user experience, enhances security, automates
-                        processes, personalizes financial services.
+                        optimizes the user experience, enhances security, automates
+                        processes, and personalizes financial services.
                       </p>
                       <button
                         className="btn btn-primary rounded-pill view-more-btn"

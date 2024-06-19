@@ -65,7 +65,7 @@ const WhyCodegene = () => {
             viewport={{ once: true, amount: 0.7 }}
             className="text-muted mb-5 text-center"
           >
-            Our people are our top priority
+            Our people are our top priority.
           </motion.p>
           <div className="row">
             <motion.div
@@ -79,7 +79,7 @@ const WhyCodegene = () => {
                 <div className="small_bg">
                   <img src={gifImage1} alt="img" className="small_gifs" />
                 </div>
-                <h4 className="my-4 fw-semibold">Work With the Best</h4>
+                <h4 className="my-4 fw-semibold">Work with the Best</h4>
                 <p className="text-muted">
                   Get to work with the best engineering teams at fast-growing
                   startups around the world.
@@ -101,7 +101,7 @@ const WhyCodegene = () => {
                   Employee Well-being Comes First
                 </h4>
                 <p className="text-muted">
-                  what-makes-us-different Employee Wellbeing Comes First Our
+                  what-makes-us-different Employee Well-being comes first. Our
                   flexible leave policy and wellness coaches (by YourDOST)
                   ensure you are the best version of yourself.
                 </p>
@@ -118,10 +118,10 @@ const WhyCodegene = () => {
                 <div className="small_bg">
                   <img src={gifImage2} alt="img" className="small_gifs" />
                 </div>
-                <h4 className="my-4 fw-semibold">Keep Challenging Yourself</h4>
+                <h4 className="my-4 fw-semibold">Keep challenging yourself</h4>
                 <p className="text-muted">
                   We provide tailor-made exposure based on your skills and their
-                  needs
+                  needs.
                 </p>
               </div>
             </motion.div>
@@ -146,7 +146,7 @@ const WhyCodegene = () => {
             </div>
             <div className="col-lg-5 ">
               <h4>
-                We’re always on the lookout for amazing Developers like you.
+                We’re always on the lookout for amazing developers like you.
               </h4>
             </div>
           </motion.div>
