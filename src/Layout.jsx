@@ -5,7 +5,6 @@ import Header from "./common/Header";
 import Footer from "./common/Footer";
 import ScrollToTop from "./common/ScrollToTop";
 
-
 const Layout = () => {
   // const [loading, setLoading] = useState(true);
   const { scrollYProgress } = useScroll();
@@ -16,6 +15,7 @@ const Layout = () => {
 
   //   return () => clearTimeout(timer);
   // }, []);
+
   return (
     <>
       {/* {loading && <LoaderComponent />} */}
@@ -27,7 +27,6 @@ const Layout = () => {
       <div className="main-panel ">
         <div className="content-wrapper container-fluid px-0 cg_services">
           <Outlet />
-          
         </div>
         <Footer />
       </div>

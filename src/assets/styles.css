@@ -2243,7 +2243,7 @@ textarea.w-select {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 10vw !important;
   font-weight: 900;
   line-height: 1 !important;
@@ -2331,7 +2331,7 @@ textarea.w-select {
     rgba(0, 82, 255, 1) -50%,
     rgba(23, 162, 255, 1) 150%
   ); */
-  background: linear-gradient(300deg,#17a2ff,#0052ff,#17a2ff);
+  background: linear-gradient(300deg, #17a2ff, #0052ff, #17a2ff);
   background-size: 180% 180%;
   animation: gradient-animation 12s ease infinite;
   background-repeat: no-repeat;
@@ -2341,7 +2341,6 @@ textarea.w-select {
   align-items: center;
   margin-top: -100vh;
   display: flex;
-  
 }
 
 /* CSS */

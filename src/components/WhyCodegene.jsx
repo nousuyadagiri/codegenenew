@@ -41,7 +41,7 @@ const WhyCodegene = () => {
                 className="text-white lh-2 banner-text"
               >
                 Helping developers realize their <br /> maximum potential since
-                2019
+                2018
               </motion.h1>
             </div>
           </motion.div>

@@ -24,6 +24,7 @@ const Header = () => {
     //   offcanvasRef.current.classList.remove("show");
     // }
     navigate(path);
+    window.scrollTo(0, 0);
   };
 
   return (

@@ -69,8 +69,12 @@ const ContactUs = () => {
       text: "Reg: (EN:37-2050121), 30N GOULD ST, STE R , SHERIDAN , Wyoming, United States -82801",
     },
     {
+      text: "P2AG-F09, Building 1,Dubai Industrial City , Sheikh Mohammed Bin Zayed Rd - Dubai - United Arab Emirates",
+    },
+    {
       text: "Room 411, 4th Floor, First Intramuros BF Condominium Corp., Aduana St, Intramuros, Manila, Philippines, 1002",
     },
+
     {
       text: "DivyaSree Solitaire, 15, Inorbit Mall Rd, Madhapur, Hyderabad, Telangana 500081",
     },
@@ -236,9 +240,9 @@ const ContactUs = () => {
             <h3 className="mb-4 main-info">Our Locations</h3>
             <ul className="list-group">
               {addresses.map((address, index) => (
-                <li className="list-group-item" key={index}>
-                  <p className="fw-normal">
-                    <i className="ri-map-pin-line text-primary fs-17 align-middle"></i>{" "}
+                <li className="list-group-item px-0" key={index}>
+                  <p className="fw-normal d-flex gap-2">
+                    <i className="ri-map-pin-line text-primary fs-17 align-middle"></i>
                     <span className="fw-medium">{address.text}</span>
                   </p>
                 </li>

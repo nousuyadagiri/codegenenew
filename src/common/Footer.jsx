@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+
 const Footer = () => {
   const { hash } = useLocation() || "";
-
+  console.log(hash, "hash");
+  console.log(useLocation(), "hash");
   useEffect(() => {
     // window.scrollTo(0, 0);
+
     if (hash) {
-      console.log("hitt");
       const element = document.getElementById(hash.replace("#", ""));
-      console.log(element, "fff");
       if (element) {
         element.scrollIntoView({
           behavior: "smooth",
@@ -23,6 +24,7 @@ const Footer = () => {
       window.scrollTo(0, 0);
     }
   }, [hash]);
+
   return (
     <footer>
       {/* <div className="row mx-sm-5 mx-2 footer-border pt-5 d-flex justify-content-between">

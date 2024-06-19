@@ -578,7 +578,7 @@ const AboutUs = () => {
             className="col-xl-6 my-auto"
           >
             <h1 className=" text-center fw-bold mb-4">
-              Start a Partnership Journey with
+              Embark on Your Career Path with
               <span className="text_highlighter ms-2">Codegene</span>
             </h1>
             <p className="mb-3 text-white-75">
